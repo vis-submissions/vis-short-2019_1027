@@ -1,0 +1,32 @@
+LayouterMode: Naive
+@owl: naive build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 0.0Mb initBVH, 0b finalBVH
+Iteration: 1
+Elapsed: 0.0105738
+TimeRepulsiveForce: 0.0105738
+AvgTimeRepulsiveForce: 0.0105738
+TimeBuildAccel: 1.0784e-05
+TimeTraverseAccel: 0.00931702
+NumNodes: 8191
+NumEdges: 8190
+kValue: 0.99443
+Temperature: 9
+TimeAttractiveForces: 0.00115302
+TimeDisperse: 0.001152
+TimeCopyBack: 2.7968e-05
+
+@owl: naive build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 0.0Mb initBVH, 0b finalBVH
+Iteration: 2
+Elapsed: 0.0130981
+TimeRepulsiveForce: 0.0130981
+AvgTimeRepulsiveForce: 0.011836
+TimeBuildAccel: 0.00232374
+TimeTraverseAccel: 0.0118755
+NumNodes: 8191
+NumEdges: 8190
+kValue: 0.99443
+Temperature: 8.99101
+TimeAttractiveForces: 0.00123226
+TimeDisperse: 0.00134122
+TimeCopyBack: 2.2912e-05
+
+Total time for 1 iterations: 0.343403 sec.

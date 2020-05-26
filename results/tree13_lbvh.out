@@ -1,0 +1,32 @@
+LayouterMode: LBVH
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 1023.91Kb initBVH, 0b finalBVH
+Iteration: 1
+Elapsed: 0.00277558
+TimeRepulsiveForce: 0.00277558
+AvgTimeRepulsiveForce: 0.00277558
+TimeBuildAccel: 0.0013055
+TimeTraverseAccel: 0.0015535
+NumNodes: 16383
+NumEdges: 16382
+kValue: 0.992218
+Temperature: 12.7
+TimeAttractiveForces: 0.00128077
+TimeDisperse: 0.00136582
+TimeCopyBack: 3.2992e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 1023.91Kb initBVH, 0b finalBVH
+Iteration: 2
+Elapsed: 0.024324
+TimeRepulsiveForce: 0.024324
+AvgTimeRepulsiveForce: 0.0135498
+TimeBuildAccel: 0.0112086
+TimeTraverseAccel: 0.0231689
+NumNodes: 16383
+NumEdges: 16382
+kValue: 0.992218
+Temperature: 12.6873
+TimeAttractiveForces: 0.00124928
+TimeDisperse: 0.00120282
+TimeCopyBack: 3.488e-05
+
+Total time for 1 iterations: 0.329567 sec.

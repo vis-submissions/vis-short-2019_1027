@@ -1,0 +1,32 @@
+LayouterMode: RTX
+[1;33m@owl: bvh build mem: 2.00K items, 47.98Kb bounds, 144.25Kb temp, 102.94Kb initBVH, 0b finalBVH[0m
+Iteration: 1
+Elapsed: 0.0103231
+TimeRepulsiveForce: 0.0103231
+AvgTimeRepulsiveForce: 0.0103231
+TimeBuildAccel: 0.00520192
+TimeTraverseAccel: 0.0091256
+NumNodes: 2047
+NumEdges: 2046
+kValue: 0.994612
+Temperature: 4.5
+TimeAttractiveForces: 0.00115344
+TimeDisperse: 0.00117146
+TimeCopyBack: 1.3952e-05
+
+[1;33m@owl: bvh build mem: 2.00K items, 47.98Kb bounds, 144.25Kb temp, 102.94Kb initBVH, 0b finalBVH[0m
+Iteration: 2
+Elapsed: 0.0104724
+TimeRepulsiveForce: 0.0104724
+AvgTimeRepulsiveForce: 0.0103978
+TimeBuildAccel: 0.00772368
+TimeTraverseAccel: 0.00932352
+NumNodes: 2047
+NumEdges: 2046
+kValue: 0.994612
+Temperature: 4.4955
+TimeAttractiveForces: 0.00124499
+TimeDisperse: 0.00121856
+TimeCopyBack: 1.4144e-05
+
+Total time for 1 iterations: 0.376949 sec.

@@ -1,0 +1,86 @@
+NumNodes: 4000
+LayouterMode: Naive
+Iteration: 1
+Elapsed: 0.00322378
+RepulsiveFore: 0.00322378
+
+Iteration: 2
+Elapsed: 0.00455718
+RepulsiveFore: 0.00389048
+
+Iteration: 3
+Elapsed: 0.00445194
+RepulsiveFore: 0.00407763
+
+Iteration: 4
+Elapsed: 0.00399248
+RepulsiveFore: 0.00405634
+
+Iteration: 5
+Elapsed: 0.00403018
+RepulsiveFore: 0.00405111
+
+Iteration: 6
+Elapsed: 0.00421139
+RepulsiveFore: 0.00407782
+
+Iteration: 7
+Elapsed: 0.00471226
+RepulsiveFore: 0.00416846
+
+Iteration: 8
+Elapsed: 0.00448483
+RepulsiveFore: 0.004208
+
+Iteration: 9
+Elapsed: 0.00620995
+RepulsiveFore: 0.00443044
+
+Iteration: 10
+Elapsed: 0.00449962
+RepulsiveFore: 0.00443736
+
+Iteration: 11
+Elapsed: 0.00430422
+RepulsiveFore: 0.00442526
+
+Iteration: 12
+Elapsed: 0.00470915
+RepulsiveFore: 0.00444891
+
+Iteration: 13
+Elapsed: 0.00420534
+RepulsiveFore: 0.00443018
+
+Iteration: 14
+Elapsed: 0.00421501
+RepulsiveFore: 0.00441481
+
+Iteration: 15
+Elapsed: 0.0041737
+RepulsiveFore: 0.00439873
+
+Iteration: 16
+Elapsed: 0.00549168
+RepulsiveFore: 0.00446704
+
+Iteration: 17
+Elapsed: 0.00460013
+RepulsiveFore: 0.00447487
+
+Iteration: 18
+Elapsed: 0.00434541
+RepulsiveFore: 0.00446768
+
+Iteration: 19
+Elapsed: 0.0043728
+RepulsiveFore: 0.00446269
+
+Iteration: 20
+Elapsed: 0.0041136
+RepulsiveFore: 0.00444523
+
+Iteration: 21
+Elapsed: 0.00450797
+RepulsiveFore: 0.00444822
+

@@ -1,0 +1,1519 @@
+Inputfile: ../data/gephi/gephi_100k.csv
+Loading file <../data/gephi/gephi_100k.csv>
+LayouterMode: LBVH
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 1
+Elapsed: 0.00866397
+TimeRepulsiveForce: 0.00866397
+AvgTimeRepulsiveForce: 0.00866397
+TimeBuildAccel: 0.0053951
+TimeTraverseAccel: 0.00742058
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 26.1
+TimeAttractiveForces: 0.00120221
+TimeDisperse: 0.00117965
+TimeCopyBack: 0.000100672
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 2
+Elapsed: 0.0630606
+TimeRepulsiveForce: 0.0630606
+AvgTimeRepulsiveForce: 0.0358623
+TimeBuildAccel: 0.0115196
+TimeTraverseAccel: 0.0617889
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 26.0739
+TimeAttractiveForces: 0.0013271
+TimeDisperse: 0.00136192
+TimeCopyBack: 9.9648e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 3
+Elapsed: 0.0539773
+TimeRepulsiveForce: 0.0539773
+AvgTimeRepulsiveForce: 0.0419006
+TimeBuildAccel: 0.00942157
+TimeTraverseAccel: 0.052741
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 26.0479
+TimeAttractiveForces: 0.00124928
+TimeDisperse: 0.00123472
+TimeCopyBack: 0.000100384
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 4
+Elapsed: 0.0696732
+TimeRepulsiveForce: 0.0696732
+AvgTimeRepulsiveForce: 0.0488438
+TimeBuildAccel: 0.0117579
+TimeTraverseAccel: 0.0683646
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 26.0219
+TimeAttractiveForces: 0.00124109
+TimeDisperse: 0.00132954
+TimeCopyBack: 9.8592e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 5
+Elapsed: 0.073319
+TimeRepulsiveForce: 0.073319
+AvgTimeRepulsiveForce: 0.0537388
+TimeBuildAccel: 0.0120018
+TimeTraverseAccel: 0.0720737
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.9959
+TimeAttractiveForces: 0.00143098
+TimeDisperse: 0.00140669
+TimeCopyBack: 0.000102112
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 6
+Elapsed: 0.0731055
+TimeRepulsiveForce: 0.0731055
+AvgTimeRepulsiveForce: 0.0569666
+TimeBuildAccel: 0.00924806
+TimeTraverseAccel: 0.0719055
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.9699
+TimeAttractiveForces: 0.00126618
+TimeDisperse: 0.00123488
+TimeCopyBack: 0.000106144
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 7
+Elapsed: 0.0727692
+TimeRepulsiveForce: 0.0727692
+AvgTimeRepulsiveForce: 0.0592241
+TimeBuildAccel: 0.00792982
+TimeTraverseAccel: 0.0716031
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.9439
+TimeAttractiveForces: 0.00119194
+TimeDisperse: 0.00118605
+TimeCopyBack: 0.000104256
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 8
+Elapsed: 0.0766403
+TimeRepulsiveForce: 0.0766403
+AvgTimeRepulsiveForce: 0.0614011
+TimeBuildAccel: 0.0115364
+TimeTraverseAccel: 0.0754332
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.918
+TimeAttractiveForces: 0.00120816
+TimeDisperse: 0.0012528
+TimeCopyBack: 0.000102048
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 9
+Elapsed: 0.0787911
+TimeRepulsiveForce: 0.0787911
+AvgTimeRepulsiveForce: 0.0633333
+TimeBuildAccel: 0.0113453
+TimeTraverseAccel: 0.0774603
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.8921
+TimeAttractiveForces: 0.00124928
+TimeDisperse: 0.00117453
+TimeCopyBack: 9.9232e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 10
+Elapsed: 0.079864
+TimeRepulsiveForce: 0.079864
+AvgTimeRepulsiveForce: 0.0649864
+TimeBuildAccel: 0.0123916
+TimeTraverseAccel: 0.0785086
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.8663
+TimeAttractiveForces: 0.0014737
+TimeDisperse: 0.00135578
+TimeCopyBack: 0.000100128
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 11
+Elapsed: 0.0803153
+TimeRepulsiveForce: 0.0803153
+AvgTimeRepulsiveForce: 0.06638
+TimeBuildAccel: 0.0122461
+TimeTraverseAccel: 0.0790906
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.8404
+TimeAttractiveForces: 0.0012841
+TimeDisperse: 0.00117965
+TimeCopyBack: 0.000104224
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 12
+Elapsed: 0.0861227
+TimeRepulsiveForce: 0.0861227
+AvgTimeRepulsiveForce: 0.0680252
+TimeBuildAccel: 0.0113767
+TimeTraverseAccel: 0.0848739
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.8146
+TimeAttractiveForces: 0.00123226
+TimeDisperse: 0.00124035
+TimeCopyBack: 9.6832e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 13
+Elapsed: 0.0794207
+TimeRepulsiveForce: 0.0794207
+AvgTimeRepulsiveForce: 0.0689018
+TimeBuildAccel: 0.0120946
+TimeTraverseAccel: 0.0782125
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.7888
+TimeAttractiveForces: 0.00117315
+TimeDisperse: 0.00116662
+TimeCopyBack: 9.9872e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 14
+Elapsed: 0.0864297
+TimeRepulsiveForce: 0.0864297
+AvgTimeRepulsiveForce: 0.0701538
+TimeBuildAccel: 0.0113317
+TimeTraverseAccel: 0.0851951
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.763
+TimeAttractiveForces: 0.00119392
+TimeDisperse: 0.00117958
+TimeCopyBack: 9.9744e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 15
+Elapsed: 0.0807729
+TimeRepulsiveForce: 0.0807729
+AvgTimeRepulsiveForce: 0.0708617
+TimeBuildAccel: 0.0118921
+TimeTraverseAccel: 0.0794702
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.7373
+TimeAttractiveForces: 0.00124698
+TimeDisperse: 0.00123226
+TimeCopyBack: 9.5008e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 16
+Elapsed: 0.0865425
+TimeRepulsiveForce: 0.0865425
+AvgTimeRepulsiveForce: 0.0718418
+TimeBuildAccel: 0.0119823
+TimeTraverseAccel: 0.0852824
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.7116
+TimeAttractiveForces: 0.00135171
+TimeDisperse: 0.00123798
+TimeCopyBack: 9.68e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 17
+Elapsed: 0.0784912
+TimeRepulsiveForce: 0.0784912
+AvgTimeRepulsiveForce: 0.0722329
+TimeBuildAccel: 0.011241
+TimeTraverseAccel: 0.0772459
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.6859
+TimeAttractiveForces: 0.0012599
+TimeDisperse: 0.00133702
+TimeCopyBack: 9.4528e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 18
+Elapsed: 0.0875606
+TimeRepulsiveForce: 0.0875606
+AvgTimeRepulsiveForce: 0.0730844
+TimeBuildAccel: 0.01201
+TimeTraverseAccel: 0.0862376
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.6602
+TimeAttractiveForces: 0.00133206
+TimeDisperse: 0.00117715
+TimeCopyBack: 0.000104832
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 19
+Elapsed: 0.0764842
+TimeRepulsiveForce: 0.0764842
+AvgTimeRepulsiveForce: 0.0732634
+TimeBuildAccel: 0.0113751
+TimeTraverseAccel: 0.0751487
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.6346
+TimeAttractiveForces: 0.00129981
+TimeDisperse: 0.00137878
+TimeCopyBack: 0.000101632
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 20
+Elapsed: 0.087325
+TimeRepulsiveForce: 0.087325
+AvgTimeRepulsiveForce: 0.0739665
+TimeBuildAccel: 0.0120701
+TimeTraverseAccel: 0.0860676
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.609
+TimeAttractiveForces: 0.00125542
+TimeDisperse: 0.00123421
+TimeCopyBack: 9.8336e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 21
+Elapsed: 0.0780957
+TimeRepulsiveForce: 0.0780957
+AvgTimeRepulsiveForce: 0.0741631
+TimeBuildAccel: 0.010715
+TimeTraverseAccel: 0.0766751
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.5834
+TimeAttractiveForces: 0.00127002
+TimeDisperse: 0.00124096
+TimeCopyBack: 0.0001032
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 22
+Elapsed: 0.0857898
+TimeRepulsiveForce: 0.0857898
+AvgTimeRepulsiveForce: 0.0746916
+TimeBuildAccel: 0.0112311
+TimeTraverseAccel: 0.0845756
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.5579
+TimeAttractiveForces: 0.00119478
+TimeDisperse: 0.00123085
+TimeCopyBack: 9.824e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 23
+Elapsed: 0.077564
+TimeRepulsiveForce: 0.077564
+AvgTimeRepulsiveForce: 0.0748165
+TimeBuildAccel: 0.0121244
+TimeTraverseAccel: 0.0763228
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.5323
+TimeAttractiveForces: 0.00137453
+TimeDisperse: 0.0012759
+TimeCopyBack: 0.000102176
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 24
+Elapsed: 0.0868699
+TimeRepulsiveForce: 0.0868699
+AvgTimeRepulsiveForce: 0.0753187
+TimeBuildAccel: 0.012294
+TimeTraverseAccel: 0.0855296
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.5068
+TimeAttractiveForces: 0.00119674
+TimeDisperse: 0.00117309
+TimeCopyBack: 0.000100736
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 25
+Elapsed: 0.0801062
+TimeRepulsiveForce: 0.0801062
+AvgTimeRepulsiveForce: 0.0755102
+TimeBuildAccel: 0.0115813
+TimeTraverseAccel: 0.0787125
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.4813
+TimeAttractiveForces: 0.0012559
+TimeDisperse: 0.00135795
+TimeCopyBack: 0.000101568
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 26
+Elapsed: 0.0793672
+TimeRepulsiveForce: 0.0793672
+AvgTimeRepulsiveForce: 0.0756585
+TimeBuildAccel: 0.0120556
+TimeTraverseAccel: 0.078204
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.4559
+TimeAttractiveForces: 0.00128227
+TimeDisperse: 0.00123274
+TimeCopyBack: 0.000111168
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 27
+Elapsed: 0.0778758
+TimeRepulsiveForce: 0.0778758
+AvgTimeRepulsiveForce: 0.0757407
+TimeBuildAccel: 0.0121803
+TimeTraverseAccel: 0.0765363
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.4304
+TimeAttractiveForces: 0.00118499
+TimeDisperse: 0.00134963
+TimeCopyBack: 0.000100768
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 28
+Elapsed: 0.077969
+TimeRepulsiveForce: 0.077969
+AvgTimeRepulsiveForce: 0.0758202
+TimeBuildAccel: 0.0112301
+TimeTraverseAccel: 0.0767176
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.405
+TimeAttractiveForces: 0.00126157
+TimeDisperse: 0.00115187
+TimeCopyBack: 0.000104768
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 29
+Elapsed: 0.076855
+TimeRepulsiveForce: 0.076855
+AvgTimeRepulsiveForce: 0.0758559
+TimeBuildAccel: 0.0112799
+TimeTraverseAccel: 0.075534
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.3797
+TimeAttractiveForces: 0.00125066
+TimeDisperse: 0.00125133
+TimeCopyBack: 0.000103616
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 30
+Elapsed: 0.0784776
+TimeRepulsiveForce: 0.0784776
+AvgTimeRepulsiveForce: 0.0759433
+TimeBuildAccel: 0.0113215
+TimeTraverseAccel: 0.077245
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.3543
+TimeAttractiveForces: 0.00136067
+TimeDisperse: 0.00123587
+TimeCopyBack: 9.6416e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 31
+Elapsed: 0.0799294
+TimeRepulsiveForce: 0.0799294
+AvgTimeRepulsiveForce: 0.0760719
+TimeBuildAccel: 0.0116256
+TimeTraverseAccel: 0.0785996
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.329
+TimeAttractiveForces: 0.00135373
+TimeDisperse: 0.00115885
+TimeCopyBack: 9.7024e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 32
+Elapsed: 0.0797667
+TimeRepulsiveForce: 0.0797667
+AvgTimeRepulsiveForce: 0.0761874
+TimeBuildAccel: 0.0120309
+TimeTraverseAccel: 0.0784005
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.3037
+TimeAttractiveForces: 0.00126515
+TimeDisperse: 0.00133277
+TimeCopyBack: 9.6992e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 33
+Elapsed: 0.0789693
+TimeRepulsiveForce: 0.0789693
+AvgTimeRepulsiveForce: 0.0762717
+TimeBuildAccel: 0.011945
+TimeTraverseAccel: 0.0776958
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.2784
+TimeAttractiveForces: 0.00135373
+TimeDisperse: 0.00130275
+TimeCopyBack: 9.632e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 34
+Elapsed: 0.0790015
+TimeRepulsiveForce: 0.0790015
+AvgTimeRepulsiveForce: 0.0763519
+TimeBuildAccel: 0.0116816
+TimeTraverseAccel: 0.077787
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.2531
+TimeAttractiveForces: 0.00127181
+TimeDisperse: 0.00117091
+TimeCopyBack: 9.6672e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 35
+Elapsed: 0.0781921
+TimeRepulsiveForce: 0.0781921
+AvgTimeRepulsiveForce: 0.0764045
+TimeBuildAccel: 0.011573
+TimeTraverseAccel: 0.0769494
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.2279
+TimeAttractiveForces: 0.00126563
+TimeDisperse: 0.00117725
+TimeCopyBack: 9.8304e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 36
+Elapsed: 0.07832
+TimeRepulsiveForce: 0.07832
+AvgTimeRepulsiveForce: 0.0764577
+TimeBuildAccel: 0.0112504
+TimeTraverseAccel: 0.0769888
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.2027
+TimeAttractiveForces: 0.00125542
+TimeDisperse: 0.00117958
+TimeCopyBack: 9.4656e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 37
+Elapsed: 0.0803389
+TimeRepulsiveForce: 0.0803389
+AvgTimeRepulsiveForce: 0.0765626
+TimeBuildAccel: 0.0119093
+TimeTraverseAccel: 0.0788164
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.1775
+TimeAttractiveForces: 0.00126688
+TimeDisperse: 0.00124656
+TimeCopyBack: 0.000101024
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 38
+Elapsed: 0.0797121
+TimeRepulsiveForce: 0.0797121
+AvgTimeRepulsiveForce: 0.0766455
+TimeBuildAccel: 0.012133
+TimeTraverseAccel: 0.0784675
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.1524
+TimeAttractiveForces: 0.00131482
+TimeDisperse: 0.00124957
+TimeCopyBack: 9.7984e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 39
+Elapsed: 0.0785336
+TimeRepulsiveForce: 0.0785336
+AvgTimeRepulsiveForce: 0.0766939
+TimeBuildAccel: 0.0110531
+TimeTraverseAccel: 0.0772328
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.1272
+TimeAttractiveForces: 0.00127795
+TimeDisperse: 0.00123574
+TimeCopyBack: 9.6448e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 40
+Elapsed: 0.0789936
+TimeRepulsiveForce: 0.0789936
+AvgTimeRepulsiveForce: 0.0767514
+TimeBuildAccel: 0.0116839
+TimeTraverseAccel: 0.0777523
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.1021
+TimeAttractiveForces: 0.00127619
+TimeDisperse: 0.00116656
+TimeCopyBack: 9.8944e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 41
+Elapsed: 0.0776229
+TimeRepulsiveForce: 0.0776229
+AvgTimeRepulsiveForce: 0.0767727
+TimeBuildAccel: 0.0117708
+TimeTraverseAccel: 0.0762178
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.0771
+TimeAttractiveForces: 0.00126202
+TimeDisperse: 0.0013497
+TimeCopyBack: 0.0001024
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 42
+Elapsed: 0.079549
+TimeRepulsiveForce: 0.079549
+AvgTimeRepulsiveForce: 0.0768388
+TimeBuildAccel: 0.01169
+TimeTraverseAccel: 0.0780893
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.052
+TimeAttractiveForces: 0.00123331
+TimeDisperse: 0.00122934
+TimeCopyBack: 0.000101248
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 43
+Elapsed: 0.0795106
+TimeRepulsiveForce: 0.0795106
+AvgTimeRepulsiveForce: 0.0769009
+TimeBuildAccel: 0.0119351
+TimeTraverseAccel: 0.0782514
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.027
+TimeAttractiveForces: 0.00125331
+TimeDisperse: 0.00124896
+TimeCopyBack: 0.000103072
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 44
+Elapsed: 0.0787632
+TimeRepulsiveForce: 0.0787632
+AvgTimeRepulsiveForce: 0.0769432
+TimeBuildAccel: 0.0112553
+TimeTraverseAccel: 0.077412
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.002
+TimeAttractiveForces: 0.00126246
+TimeDisperse: 0.00126544
+TimeCopyBack: 0.000104608
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 45
+Elapsed: 0.0796093
+TimeRepulsiveForce: 0.0796093
+AvgTimeRepulsiveForce: 0.0770025
+TimeBuildAccel: 0.0118463
+TimeTraverseAccel: 0.0781737
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.977
+TimeAttractiveForces: 0.00126102
+TimeDisperse: 0.00117174
+TimeCopyBack: 9.7568e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 46
+Elapsed: 0.0791715
+TimeRepulsiveForce: 0.0791715
+AvgTimeRepulsiveForce: 0.0770496
+TimeBuildAccel: 0.0118655
+TimeTraverseAccel: 0.0779049
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.952
+TimeAttractiveForces: 0.0011983
+TimeDisperse: 0.00126032
+TimeCopyBack: 0.000100896
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 47
+Elapsed: 0.0801293
+TimeRepulsiveForce: 0.0801293
+AvgTimeRepulsiveForce: 0.0771152
+TimeBuildAccel: 0.0120959
+TimeTraverseAccel: 0.0786854
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.9271
+TimeAttractiveForces: 0.00119194
+TimeDisperse: 0.00116995
+TimeCopyBack: 0.000101088
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 48
+Elapsed: 0.0793284
+TimeRepulsiveForce: 0.0793284
+AvgTimeRepulsiveForce: 0.0771613
+TimeBuildAccel: 0.0113723
+TimeTraverseAccel: 0.0779337
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.9022
+TimeAttractiveForces: 0.00126515
+TimeDisperse: 0.00123904
+TimeCopyBack: 0.000106592
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 49
+Elapsed: 0.0806383
+TimeRepulsiveForce: 0.0806383
+AvgTimeRepulsiveForce: 0.0772322
+TimeBuildAccel: 0.0117363
+TimeTraverseAccel: 0.0792187
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.8773
+TimeAttractiveForces: 0.00126102
+TimeDisperse: 0.00125338
+TimeCopyBack: 9.7472e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 50
+Elapsed: 0.0788104
+TimeRepulsiveForce: 0.0788104
+AvgTimeRepulsiveForce: 0.0772638
+TimeBuildAccel: 0.0114638
+TimeTraverseAccel: 0.0773849
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.8525
+TimeAttractiveForces: 0.00116669
+TimeDisperse: 0.00124022
+TimeCopyBack: 9.7088e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 51
+Elapsed: 0.0798512
+TimeRepulsiveForce: 0.0798512
+AvgTimeRepulsiveForce: 0.0773145
+TimeBuildAccel: 0.0116923
+TimeTraverseAccel: 0.0784677
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.8276
+TimeAttractiveForces: 0.00128762
+TimeDisperse: 0.00127456
+TimeCopyBack: 0.000102016
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 52
+Elapsed: 0.0785884
+TimeRepulsiveForce: 0.0785884
+AvgTimeRepulsiveForce: 0.077339
+TimeBuildAccel: 0.0116517
+TimeTraverseAccel: 0.0773372
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.8028
+TimeAttractiveForces: 0.0011816
+TimeDisperse: 0.00130253
+TimeCopyBack: 0.0001008
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 53
+Elapsed: 0.0795046
+TimeRepulsiveForce: 0.0795046
+AvgTimeRepulsiveForce: 0.0773799
+TimeBuildAccel: 0.0119274
+TimeTraverseAccel: 0.078244
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.7781
+TimeAttractiveForces: 0.00125494
+TimeDisperse: 0.00126362
+TimeCopyBack: 0.000103392
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 54
+Elapsed: 0.079789
+TimeRepulsiveForce: 0.079789
+AvgTimeRepulsiveForce: 0.0774245
+TimeBuildAccel: 0.0117001
+TimeTraverseAccel: 0.0783677
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.7533
+TimeAttractiveForces: 0.00125926
+TimeDisperse: 0.00116352
+TimeCopyBack: 9.8144e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 55
+Elapsed: 0.0800214
+TimeRepulsiveForce: 0.0800214
+AvgTimeRepulsiveForce: 0.0774717
+TimeBuildAccel: 0.0119378
+TimeTraverseAccel: 0.0787765
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.7286
+TimeAttractiveForces: 0.00122643
+TimeDisperse: 0.00123494
+TimeCopyBack: 0.000102752
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 56
+Elapsed: 0.0798755
+TimeRepulsiveForce: 0.0798755
+AvgTimeRepulsiveForce: 0.0775146
+TimeBuildAccel: 0.0119721
+TimeTraverseAccel: 0.0784315
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.7039
+TimeAttractiveForces: 0.00133757
+TimeDisperse: 0.00131686
+TimeCopyBack: 0.000101504
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 57
+Elapsed: 0.063563
+TimeRepulsiveForce: 0.063563
+AvgTimeRepulsiveForce: 0.0772699
+TimeBuildAccel: 0.0120749
+TimeTraverseAccel: 0.0623978
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.6792
+TimeAttractiveForces: 0.00128298
+TimeDisperse: 0.00116803
+TimeCopyBack: 0.000100512
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 58
+Elapsed: 0.07731
+TimeRepulsiveForce: 0.07731
+AvgTimeRepulsiveForce: 0.0772706
+TimeBuildAccel: 0.0115796
+TimeTraverseAccel: 0.0760607
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.6545
+TimeAttractiveForces: 0.00125318
+TimeDisperse: 0.00134938
+TimeCopyBack: 0.000101792
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 59
+Elapsed: 0.0662978
+TimeRepulsiveForce: 0.0662978
+AvgTimeRepulsiveForce: 0.0770846
+TimeBuildAccel: 0.0122966
+TimeTraverseAccel: 0.065045
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.6299
+TimeAttractiveForces: 0.00125437
+TimeDisperse: 0.00125338
+TimeCopyBack: 9.7952e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 60
+Elapsed: 0.0779886
+TimeRepulsiveForce: 0.0779886
+AvgTimeRepulsiveForce: 0.0770997
+TimeBuildAccel: 0.0108967
+TimeTraverseAccel: 0.0766755
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.6053
+TimeAttractiveForces: 0.00126141
+TimeDisperse: 0.0011521
+TimeCopyBack: 9.6896e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 61
+Elapsed: 0.0630989
+TimeRepulsiveForce: 0.0630989
+AvgTimeRepulsiveForce: 0.0768701
+TimeBuildAccel: 0.0111996
+TimeTraverseAccel: 0.0618026
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.5807
+TimeAttractiveForces: 0.00119242
+TimeDisperse: 0.00118784
+TimeCopyBack: 0.00010064
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 62
+Elapsed: 0.0791628
+TimeRepulsiveForce: 0.0791628
+AvgTimeRepulsiveForce: 0.0769071
+TimeBuildAccel: 0.0119177
+TimeTraverseAccel: 0.0779551
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.5562
+TimeAttractiveForces: 0.00126362
+TimeDisperse: 0.00124643
+TimeCopyBack: 0.000100672
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 63
+Elapsed: 0.0639322
+TimeRepulsiveForce: 0.0639322
+AvgTimeRepulsiveForce: 0.0767012
+TimeBuildAccel: 0.0122646
+TimeTraverseAccel: 0.062619
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.5316
+TimeAttractiveForces: 0.00126378
+TimeDisperse: 0.00133504
+TimeCopyBack: 0.000102016
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 64
+Elapsed: 0.0791084
+TimeRepulsiveForce: 0.0791084
+AvgTimeRepulsiveForce: 0.0767388
+TimeBuildAccel: 0.0119154
+TimeTraverseAccel: 0.0778631
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.5071
+TimeAttractiveForces: 0.0011928
+TimeDisperse: 0.00116362
+TimeCopyBack: 0.0001008
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 65
+Elapsed: 0.0636218
+TimeRepulsiveForce: 0.0636218
+AvgTimeRepulsiveForce: 0.076537
+TimeBuildAccel: 0.0119329
+TimeTraverseAccel: 0.0624731
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.4826
+TimeAttractiveForces: 0.00130691
+TimeDisperse: 0.00116819
+TimeCopyBack: 0.00010208
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 66
+Elapsed: 0.0782067
+TimeRepulsiveForce: 0.0782067
+AvgTimeRepulsiveForce: 0.0765623
+TimeBuildAccel: 0.0107484
+TimeTraverseAccel: 0.0769422
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.4582
+TimeAttractiveForces: 0.00134752
+TimeDisperse: 0.00123421
+TimeCopyBack: 0.000103424
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 67
+Elapsed: 0.0633324
+TimeRepulsiveForce: 0.0633324
+AvgTimeRepulsiveForce: 0.0763648
+TimeBuildAccel: 0.011227
+TimeTraverseAccel: 0.0618985
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.4337
+TimeAttractiveForces: 0.0012583
+TimeDisperse: 0.00128406
+TimeCopyBack: 9.8944e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 68
+Elapsed: 0.0793377
+TimeRepulsiveForce: 0.0793377
+AvgTimeRepulsiveForce: 0.0764085
+TimeBuildAccel: 0.0119068
+TimeTraverseAccel: 0.0779161
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.4093
+TimeAttractiveForces: 0.00124294
+TimeDisperse: 0.00115853
+TimeCopyBack: 0.00010336
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 69
+Elapsed: 0.0644122
+TimeRepulsiveForce: 0.0644122
+AvgTimeRepulsiveForce: 0.0762347
+TimeBuildAccel: 0.0124441
+TimeTraverseAccel: 0.0630892
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.3849
+TimeAttractiveForces: 0.00126992
+TimeDisperse: 0.00125974
+TimeCopyBack: 0.0001008
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 70
+Elapsed: 0.0789047
+TimeRepulsiveForce: 0.0789047
+AvgTimeRepulsiveForce: 0.0762728
+TimeBuildAccel: 0.0119628
+TimeTraverseAccel: 0.0776493
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.3606
+TimeAttractiveForces: 0.00125952
+TimeDisperse: 0.00118784
+TimeCopyBack: 9.9136e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 71
+Elapsed: 0.0641943
+TimeRepulsiveForce: 0.0641943
+AvgTimeRepulsiveForce: 0.0761027
+TimeBuildAccel: 0.0117398
+TimeTraverseAccel: 0.0628393
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.3362
+TimeAttractiveForces: 0.00124957
+TimeDisperse: 0.00126074
+TimeCopyBack: 0.00010224
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 72
+Elapsed: 0.076652
+TimeRepulsiveForce: 0.076652
+AvgTimeRepulsiveForce: 0.0761103
+TimeBuildAccel: 0.011333
+TimeTraverseAccel: 0.0754848
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.3119
+TimeAttractiveForces: 0.00127299
+TimeDisperse: 0.00122557
+TimeCopyBack: 0.000103872
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 73
+Elapsed: 0.0618436
+TimeRepulsiveForce: 0.0618436
+AvgTimeRepulsiveForce: 0.0759149
+TimeBuildAccel: 0.0107189
+TimeTraverseAccel: 0.0604111
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.2876
+TimeAttractiveForces: 0.00126518
+TimeDisperse: 0.00124723
+TimeCopyBack: 0.00010128
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 74
+Elapsed: 0.0795813
+TimeRepulsiveForce: 0.0795813
+AvgTimeRepulsiveForce: 0.0759644
+TimeBuildAccel: 0.0119179
+TimeTraverseAccel: 0.0783841
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.2634
+TimeAttractiveForces: 0.0012641
+TimeDisperse: 0.00133146
+TimeCopyBack: 0.000100672
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 75
+Elapsed: 0.0639809
+TimeRepulsiveForce: 0.0639809
+AvgTimeRepulsiveForce: 0.0758047
+TimeBuildAccel: 0.0121476
+TimeTraverseAccel: 0.0626784
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.2391
+TimeAttractiveForces: 0.00125126
+TimeDisperse: 0.00125462
+TimeCopyBack: 0.000101184
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 76
+Elapsed: 0.079147
+TimeRepulsiveForce: 0.079147
+AvgTimeRepulsiveForce: 0.0758486
+TimeBuildAccel: 0.011646
+TimeTraverseAccel: 0.0779414
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.2149
+TimeAttractiveForces: 0.00127398
+TimeDisperse: 0.00116758
+TimeCopyBack: 0.000100288
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 77
+Elapsed: 0.0637119
+TimeRepulsiveForce: 0.0637119
+AvgTimeRepulsiveForce: 0.075691
+TimeBuildAccel: 0.0119673
+TimeTraverseAccel: 0.0624544
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.1907
+TimeAttractiveForces: 0.00119667
+TimeDisperse: 0.00133734
+TimeCopyBack: 0.0001032
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 78
+Elapsed: 0.0797726
+TimeRepulsiveForce: 0.0797726
+AvgTimeRepulsiveForce: 0.0757433
+TimeBuildAccel: 0.0123287
+TimeTraverseAccel: 0.0785376
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.1666
+TimeAttractiveForces: 0.00126733
+TimeDisperse: 0.00126368
+TimeCopyBack: 0.000106432
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 79
+Elapsed: 0.0624652
+TimeRepulsiveForce: 0.0624652
+AvgTimeRepulsiveForce: 0.0755753
+TimeBuildAccel: 0.0112231
+TimeTraverseAccel: 0.061318
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.1424
+TimeAttractiveForces: 0.00127779
+TimeDisperse: 0.00134758
+TimeCopyBack: 9.7792e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 80
+Elapsed: 0.079649
+TimeRepulsiveForce: 0.079649
+AvgTimeRepulsiveForce: 0.0756262
+TimeBuildAccel: 0.012066
+TimeTraverseAccel: 0.078432
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.1183
+TimeAttractiveForces: 0.00118154
+TimeDisperse: 0.0011632
+TimeCopyBack: 0.0001008
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 81
+Elapsed: 0.0644389
+TimeRepulsiveForce: 0.0644389
+AvgTimeRepulsiveForce: 0.0754881
+TimeBuildAccel: 0.012236
+TimeTraverseAccel: 0.0630694
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.0942
+TimeAttractiveForces: 0.00130867
+TimeDisperse: 0.00156314
+TimeCopyBack: 0.00010272
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 82
+Elapsed: 0.0807903
+TimeRepulsiveForce: 0.0807903
+AvgTimeRepulsiveForce: 0.0755527
+TimeBuildAccel: 0.012344
+TimeTraverseAccel: 0.0795041
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.0701
+TimeAttractiveForces: 0.0012793
+TimeDisperse: 0.00134086
+TimeCopyBack: 0.00010464
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 83
+Elapsed: 0.0636517
+TimeRepulsiveForce: 0.0636517
+AvgTimeRepulsiveForce: 0.0754093
+TimeBuildAccel: 0.0118286
+TimeTraverseAccel: 0.0623281
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.0461
+TimeAttractiveForces: 0.00116646
+TimeDisperse: 0.00117709
+TimeCopyBack: 0.00010112
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 84
+Elapsed: 0.0793021
+TimeRepulsiveForce: 0.0793021
+AvgTimeRepulsiveForce: 0.0754557
+TimeBuildAccel: 0.0116707
+TimeTraverseAccel: 0.0780483
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.0221
+TimeAttractiveForces: 0.00138374
+TimeDisperse: 0.00119571
+TimeCopyBack: 0.000102432
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 85
+Elapsed: 0.0621111
+TimeRepulsiveForce: 0.0621111
+AvgTimeRepulsiveForce: 0.0752987
+TimeBuildAccel: 0.0114344
+TimeTraverseAccel: 0.0608502
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.9981
+TimeAttractiveForces: 0.00127418
+TimeDisperse: 0.00126944
+TimeCopyBack: 0.00010176
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 86
+Elapsed: 0.0794444
+TimeRepulsiveForce: 0.0794444
+AvgTimeRepulsiveForce: 0.0753469
+TimeBuildAccel: 0.01191
+TimeTraverseAccel: 0.0781094
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.9741
+TimeAttractiveForces: 0.00130253
+TimeDisperse: 0.00122054
+TimeCopyBack: 0.000101536
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 87
+Elapsed: 0.0626238
+TimeRepulsiveForce: 0.0626238
+AvgTimeRepulsiveForce: 0.0752007
+TimeBuildAccel: 0.0122284
+TimeTraverseAccel: 0.0613483
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.9501
+TimeAttractiveForces: 0.0013865
+TimeDisperse: 0.00134902
+TimeCopyBack: 0.000101248
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 88
+Elapsed: 0.0783107
+TimeRepulsiveForce: 0.0783107
+AvgTimeRepulsiveForce: 0.075236
+TimeBuildAccel: 0.0113892
+TimeTraverseAccel: 0.0770451
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.9262
+TimeAttractiveForces: 0.00129274
+TimeDisperse: 0.00120931
+TimeCopyBack: 0.000103296
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 89
+Elapsed: 0.0635916
+TimeRepulsiveForce: 0.0635916
+AvgTimeRepulsiveForce: 0.0751052
+TimeBuildAccel: 0.0118945
+TimeTraverseAccel: 0.0623244
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.9023
+TimeAttractiveForces: 0.00130048
+TimeDisperse: 0.00128413
+TimeCopyBack: 0.00010448
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 90
+Elapsed: 0.0792206
+TimeRepulsiveForce: 0.0792206
+AvgTimeRepulsiveForce: 0.0751509
+TimeBuildAccel: 0.0119233
+TimeTraverseAccel: 0.0780123
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.8784
+TimeAttractiveForces: 0.00131654
+TimeDisperse: 0.00137152
+TimeCopyBack: 0.000101088
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 91
+Elapsed: 0.0632667
+TimeRepulsiveForce: 0.0632667
+AvgTimeRepulsiveForce: 0.0750203
+TimeBuildAccel: 0.0119481
+TimeTraverseAccel: 0.0619007
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.8546
+TimeAttractiveForces: 0.00117088
+TimeDisperse: 0.00130054
+TimeCopyBack: 9.7952e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 92
+Elapsed: 0.078228
+TimeRepulsiveForce: 0.078228
+AvgTimeRepulsiveForce: 0.0750552
+TimeBuildAccel: 0.011448
+TimeTraverseAccel: 0.0769828
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.8307
+TimeAttractiveForces: 0.00130867
+TimeDisperse: 0.00128845
+TimeCopyBack: 0.000104864
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 93
+Elapsed: 0.0636349
+TimeRepulsiveForce: 0.0636349
+AvgTimeRepulsiveForce: 0.0749324
+TimeBuildAccel: 0.0119908
+TimeTraverseAccel: 0.0623688
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.8069
+TimeAttractiveForces: 0.00134694
+TimeDisperse: 0.00132938
+TimeCopyBack: 9.6448e-05
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 94
+Elapsed: 0.0767456
+TimeRepulsiveForce: 0.0767456
+AvgTimeRepulsiveForce: 0.0749516
+TimeBuildAccel: 0.0114596
+TimeTraverseAccel: 0.0754951
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.7831
+TimeAttractiveForces: 0.00120598
+TimeDisperse: 0.00128643
+TimeCopyBack: 0.00010256
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 95
+Elapsed: 0.0635899
+TimeRepulsiveForce: 0.0635899
+AvgTimeRepulsiveForce: 0.0748321
+TimeBuildAccel: 0.0121436
+TimeTraverseAccel: 0.0624164
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.7594
+TimeAttractiveForces: 0.00127216
+TimeDisperse: 0.00125133
+TimeCopyBack: 0.000103296
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 96
+Elapsed: 0.0772524
+TimeRepulsiveForce: 0.0772524
+AvgTimeRepulsiveForce: 0.0748573
+TimeBuildAccel: 0.0118211
+TimeTraverseAccel: 0.0759212
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.7357
+TimeAttractiveForces: 0.00119939
+TimeDisperse: 0.00116886
+TimeCopyBack: 0.000102336
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 97
+Elapsed: 0.0634632
+TimeRepulsiveForce: 0.0634632
+AvgTimeRepulsiveForce: 0.0747398
+TimeBuildAccel: 0.0118197
+TimeTraverseAccel: 0.0622407
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.7119
+TimeAttractiveForces: 0.00126595
+TimeDisperse: 0.00133174
+TimeCopyBack: 0.000103168
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 98
+Elapsed: 0.0793429
+TimeRepulsiveForce: 0.0793429
+AvgTimeRepulsiveForce: 0.0747868
+TimeBuildAccel: 0.0118604
+TimeTraverseAccel: 0.0780649
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.6882
+TimeAttractiveForces: 0.00153626
+TimeDisperse: 0.00126378
+TimeCopyBack: 0.000103104
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 99
+Elapsed: 0.0633868
+TimeRepulsiveForce: 0.0633868
+AvgTimeRepulsiveForce: 0.0746716
+TimeBuildAccel: 0.0122013
+TimeTraverseAccel: 0.0620289
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.6646
+TimeAttractiveForces: 0.00127696
+TimeDisperse: 0.00125194
+TimeCopyBack: 0.000101568
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 100
+Elapsed: 0.0799616
+TimeRepulsiveForce: 0.0799616
+AvgTimeRepulsiveForce: 0.0747245
+TimeBuildAccel: 0.012287
+TimeTraverseAccel: 0.0786674
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.6409
+TimeAttractiveForces: 0.00123846
+TimeDisperse: 0.00123085
+TimeCopyBack: 0.000100608
+
+@owl: LBVH build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 4.16Mb initBVH, 0b finalBVH
+Iteration: 101
+Elapsed: 0.0628568
+TimeRepulsiveForce: 0.0628568
+AvgTimeRepulsiveForce: 0.074607
+TimeBuildAccel: 0.0122701
+TimeTraverseAccel: 0.0614998
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.6173
+TimeAttractiveForces: 0.00127795
+TimeDisperse: 0.00125133
+TimeCopyBack: 9.6672e-05
+
+Total time for 100 iterations: 8.6985 sec.

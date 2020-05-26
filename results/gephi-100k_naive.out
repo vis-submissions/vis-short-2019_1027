@@ -1,0 +1,34 @@
+Inputfile: ../data/gephi/gephi_100k.csv
+Loading file <../data/gephi/gephi_100k.csv>
+LayouterMode: Naive
+@owl: naive build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 0.0Mb initBVH, 0b finalBVH
+Iteration: 1
+Elapsed: 0.136846
+TimeRepulsiveForce: 0.136846
+AvgTimeRepulsiveForce: 0.136846
+TimeBuildAccel: 0.000708864
+TimeTraverseAccel: 0.135505
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 26.1
+TimeAttractiveForces: 0.00133325
+TimeDisperse: 0.00117258
+TimeCopyBack: 0.00010368
+
+@owl: naive build mem: 0.0K items, 0.0Mb bounds, 0.0Mb temp, 0.0Mb initBVH, 0b finalBVH
+Iteration: 2
+Elapsed: 0.144016
+TimeRepulsiveForce: 0.144016
+AvgTimeRepulsiveForce: 0.140431
+TimeBuildAccel: 0.00212371
+TimeTraverseAccel: 0.142779
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 26.0739
+TimeAttractiveForces: 0.00120317
+TimeDisperse: 0.00123187
+TimeCopyBack: 0.000104864
+
+Total time for 1 iterations: 0.866839 sec.

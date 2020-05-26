@@ -1,0 +1,513 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This chunk loads all data and sets up the data frames
+```{r}
+library(jsonlite)
+library(binr)
+library(caret)
+library(matlib)
+
+library(ggplot2)
+library(tidyr)
+library(ggthemes)
+
+library(doMC)
+registerDoMC(cores = 12)
+
+read_all_json_files <- function(base_path) {
+  meta_files = list.files(path=base_path, pattern = "*.json", recursive = TRUE)
+
+  meta_data <- list()
+  for (i in seq_along(meta_files)) {
+    meta_data[[i]] <- fromJSON(paste(base_path,meta_files[i], sep=""))
+    meta_data[[i]] <- c(meta_data[[i]], meta_path=dirname(meta_files[i]))
+    # meta_data[[i]] <- rbind(meta_data[[i]], c(meta_files[i]))
+  }
+  
+  return(meta_data)
+}
+
+
+base_path <- '~/dev/owlspringembedder/results/'
+
+meta_frames <- read_all_json_files(base_path)
+
+Iteration <- c()
+Elapsed <- c()
+TimeAttractiveForces <- c()
+TimeRepulsive <- c()
+TimeDisperse <- c()
+TimeBuild <- c()
+TimeTraverse <- c()
+Mode <- c()
+Scene <- c()
+
+for(frame in meta_frames) {
+  Iteration <- c(Iteration, frame$Iteration[[2]])
+  Elapsed <- c(Elapsed, frame$Elapsed[[2]])
+  TimeAttractiveForces = c(TimeAttractiveForces, frame$TimeAttractiveForces[[2]])
+  TimeRepulsive = c(TimeRepulsive, as.numeric(frame$TimeRepulsiveForce[[2]]))
+  TimeDisperse = c(TimeDisperse, frame$TimeDisperse[[2]])
+  TimeBuild = c(TimeBuild, frame$TimeBuild[[2]])
+  TimeTraverse = c(TimeTraverse, frame$TimeTraverse[[2]])
+  
+  Mode = c(Mode, rep(frame$mode, times=length(frame$TimeTraverse[[2]])))
+  
+  Scene = c(Scene, rep(frame$scene, times=length(frame$TimeTraverse[[2]])))
+}
+
+#Create new data frame
+dfA <- data.frame(Iteration, Elapsed, TimeAttractiveForces, TimeDisperse, TimeRepulsive, Mode, Scene)
+
+#Compute mean to inspect data
+mean(dfA[dfA$Mode=="lbvh",]$Elapsed)
+
+
+####### Table with means
+
+
+Elapsed <- c()
+TimeBuild <- c()
+TimeTraverse <- c()
+Mode <- c()
+Scene <- c()
+NumNodes <- c()
+
+for(frame in meta_frames) {
+  Elapsed <- c(Elapsed, mean(frame$Elapsed[[2]]))
+  TimeBuild = c(TimeBuild, mean(frame$TimeBuild[[2]]))
+  TimeTraverse = c(TimeTraverse, mean(frame$TimeTraverse[[2]]))
+  Mode = c(Mode, frame$mode)
+  #NumNodes <- c(NumNodes, frame$NumNodes[[2]][[1]])
+  Scene = c(Scene, frame$scene)
+}
+
+#Create new data frame
+dfMeans <- data.frame(Elapsed, TimeBuild, TimeTraverse, Mode, Scene)
+
+###########
+
+Time <- c()
+Type <- c()
+Mode <- c()
+Scene <- c()
+
+for(frame in meta_frames) {
+  Time = c(Time, frame$TimeAttractiveForces[[2]])
+  lAttr = length(frame$TimeAttractiveForces[[2]])
+  Type = c(Type, rep("Attractive",lAttr))
+  
+  Time = c(Time, frame$TimeDisperse[[2]])
+  lDisp = length(frame$TimeDisperse[[2]])
+  Type = c(Type, rep("Disperse",lDisp))
+  
+  Time = c(Time, as.numeric(frame$TimeRepulsiveForce[[2]]))
+  lRep = length(frame$TimeRepulsiveForce[[2]])
+  Type = c(Type, rep("Repulsive",lRep))
+  
+  lTotal <- lAttr + lDisp + lRep
+  
+  Mode = c(Mode, rep(frame$mode, times=lTotal))
+  Scene = c(Scene, rep(frame$scene, times=lTotal))
+}
+
+#Create new data frame
+dfTimeStage <- data.frame(Time, Type, Mode, Scene)
+
+
+Time <- c()
+Type <- c()
+Scene <- c()
+Mode <- c()
+NumNodes <- c()
+
+for(frame in meta_frames) {
+TimeBuild = c(TimeBuild, frame$TimeBuild[[2]])
+TimeTraverse = c(TimeTraverse, frame$TimeTraverse[[2]])
+
+  Time = c(Time, frame$TimeBuild[[2]])
+  lBuild = length(frame$TimeBuild[[2]])
+  Type = c(Type, rep("Build",lBuild))
+  
+  Time = c(Time, frame$TimeTraverse[[2]])
+  lTrav = length(frame$TimeTraverse[[2]])
+  Type = c(Type, rep("Traverse",lTrav))
+  
+  NumNodes = c(NumNodes, frame$NumNodes[[2]])
+  
+  lTotal <- lBuild + lTrav
+    
+  Mode = c(Mode, rep(frame$mode, times=lTotal))
+  Scene = c(Scene, rep(frame$scene, times=lTotal))
+}
+
+
+dfTimeBuildTraverse <- data.frame(Time, Type, Mode, Scene, NumNodes)
+```
+
+Box plot total run times 
+```{r}
+library(binr)
+library(caret)
+library(plyr)
+
+addline_format <- function(x,...){
+    gsub('\\s','\n',x)
+}
+
+t <-  theme(axis.text.x=element_text(size=22,face="bold"),
+        axis.text.y=element_text(size=22,face="bold"),
+        axis.title=element_text(size=26,face="bold"),
+        legend.title = element_text(size=22,face="bold"),
+        legend.text=element_text(size=20,face="bold"),
+        strip.text.x = element_text(size = 22,face="bold"),
+        plot.title = element_text(size=24,face="bold")
+        )  
+
+boxplot_elapsed <- function(dfAScene) {
+  
+    p <- ggplot(data=dfScene, aes(x=dfScene$Mode, y=dfScene$Elapsed)) + 
+          geom_boxplot(width=0.9
+                       , outlier.shape = NA
+                       ) +
+          stat_boxplot(geom ='errorbar', width = 0.6) +
+          labs(x="Mode", y="Time(ms)")  + 
+          ggtitle("") +
+     #   stat_summary(fun.y=mean, geom="point", shape=20, size=10, color="darkred", fill="red") +
+    #    stat_summary(fun.y=mean, colour="darkred", size=10, geom="text", show_guide = FALSE,  vjust=-1.0, aes( label=round(..y.., digits=5))) +
+      stat_boxplot(geom ='errorbar', width = 0.6) +
+     t +
+      theme(legend.position = "none")
+    
+    
+  ggstat.data <- ggplot_build(p)$data
+  ggwhisk1 <- ggstat.data[[1]]$ymax
+  
+  meanV.naive = round(mean(dfScene[dfScene$Mode=="Naive",]$Elapsed), digits=5)
+  meanV.lbvh = round(mean(dfScene[dfScene$Mode=="LBVH",]$Elapsed), digits=5)
+  meanV.rtx = round(mean(dfScene[dfScene$Mode=="RTX\n(Ours)",]$Elapsed), digits=5)
+  
+  meanV <- c(meanV.naive, meanV.lbvh, meanV.rtx)
+  
+  modeLevels <- levels(dfScene$Mode)  
+  dfWhisker <- data.frame(mean = meanV, whisk = ggwhisk1, levels = modeLevels)
+  
+  q1 = bquote(bar("t")~"="~.(round(dfWhisker$mean[[1]], digits=3)))
+  q2 = bquote(bar("t")~"="~.(round(dfWhisker$mean[[2]], digits=3)))
+  q3 = bquote(bar("t")~"="~.(round(dfWhisker$mean[[3]], digits=3)))
+  
+  p <- p +
+    stat_summary(fun.y=mean, geom="point", shape=20, size=10, color="darkred", fill="red") +
+    geom_text(data = dfWhisker, size = 10, aes(x = levels, y = whisk, 
+     # label = sprintf("%s%f", "expression(paste(\"Oh how I wish \", underline(underlining))),",dfWhisker$mean), colour="red",vjust = -.5), parse=TRUE)
+      label = c(q1,q2,q3), colour="darkred",vjust = -.5), parse=TRUE)
+   
+  return(p)
+}
+
+#dfScene = dfA[dfA$Scene=="gephi-100k",]
+scenes <- c("gephi-100k", "k-5-10-connected", "k-5-10-unconnected", "tree16")
+
+dfARen <- dfA
+
+#Convert to miliseconds
+dfARen$Elapsed = dfARen$Elapsed * 1000  
+
+#Sort factor levels in plot
+dfARen$Mode <- factor(dfARen$Mode, levels = c('naive','lbvh','rtx'),ordered = TRUE)
+
+#Rename factor levels
+
+dfARen$Mode <- revalue(dfARen$Mode, c("naive"="Naive", "lbvh"="LBVH", "rtx" = "RTX\n(Ours)"))
+
+###gephi-100k
+sceneName <- scenes[1]
+dfScene = dfARen[dfARen$Scene==sceneName,]
+  
+p <- boxplot_elapsed(dfScene)
+p <- p + coord_cartesian(ylim = c(0, 65.00))
+    
+print(p)
+ggsave(paste(sceneName, ".pdf", sep=""), p)
+  
+  
+###k-5-10-connected
+
+sceneName <- scenes[2]
+dfScene = dfARen[dfARen$Scene==sceneName,]
+  
+p <- boxplot_elapsed(dfScene)
+p <- p + coord_cartesian(ylim = c(0, 24.0))
+    
+print(p)
+ggsave(paste(sceneName, ".pdf", sep=""), p)
+
+ 
+###k-5-10-unconnected
+
+sceneName <- scenes[3]
+dfScene = dfARen[dfARen$Scene==sceneName,]
+  
+p <- boxplot_elapsed(dfScene)
+p <- p + coord_cartesian(ylim = c(0, 900.0))
+    
+print(p)
+ggsave(paste(sceneName, ".pdf", sep=""), p)
+
+
+###tree16
+sceneName <- scenes[4]
+dfScene = dfARen[dfARen$Scene==sceneName,]
+
+p <- boxplot_elapsed(dfScene)
+p <- p + coord_cartesian(ylim = c(0, 240.0))
+  
+print(p)
+ggsave(paste(sceneName, ".pdf", sep=""), p)
+
+
+```
+
+
+
+Box plot runtime steps of all scenes
+```{r}
+library(binr)
+library(caret)
+
+stages <- c("Attractive","Disperse", "Repulsive")
+
+scene_labeller <- function(variable,value){
+  return(stages[value])
+}
+
+ggplot(data=dfTimeStage, aes(x=dfTimeStage$Mode, y=dfTimeStage$Time, fill=dfTimeStage$Mode))  + 
+  geom_boxplot(width=0.9) +facet_grid(. ~ Type, labeller = scene_labeller) +
+  theme(panel.spacing = unit(0.15, "lines")) +
+     guides(fill=FALSE)+
+    labs(x="Implementation", y="Time(sec)") +
+    #scale_y_continuous(limits = c(0.0, 0.0002)) +
+      ggtitle("") +
+      t
+
+#p
+# Rotate the box plot
+#p + coord_flip()
+
+```
+
+Stacked Bar plot three stages
+
+```{r}
+ # library
+library(ggplot2)
+
+
+
+# Stacked
+ggplot(dfTimeStage, aes(fill=Type, y=Time, x=Mode)) + t +
+    geom_bar(position="stack", stat="identity")
+```
+
+Stacked bar plot for build vs traverse
+```{r}
+ # library
+library(ggplot2)
+
+dfTimeBT <- dfTimeBuildTraverse[dfTimeBuildTraverse$Mode!="naive",]
+
+#Sort factor levels in plot
+dfTimeBT$Mode <- factor(dfTimeBT$Mode, levels = c('naive','lbvh','rtx'),ordered = TRUE)
+
+#Rename factor levels
+dfTimeBT$Mode <- revalue(dfTimeBT$Mode, c("naive"="Naive", "lbvh"="LBVH", "rtx" = "RTX\n(Ours)"))
+
+scenes <- c("gephi-100k", "k-5-10-connected", "k-5-10-unconnected", "tree16")
+for (s in scenes) {
+  dfTimeBTS <- dfTimeBT[dfTimeBuildTraverse$Scene==s,]
+  # Stacked
+  p<-ggplot(dfTimeBTS, aes(fill=Type, y=Time, x=Mode)) + t+ 
+      geom_bar(position="stack", stat="identity") +
+     labs(x="Implementation", y="Time(sec)") +
+     ggtitle(s)
+  print(p)
+  
+  ggsave(paste(s, "-BuildTraverse-StackedBar.pdf", sep=""), p)
+}
+```
+
+Plot the run time development with increasing an increasing number of node tree4-18
+```{r}
+library(binr)
+library(caret)
+library(cowplot)
+
+
+tSmallAxisLabel <-  theme(axis.text.x=element_text(size=18,face="bold"),
+        axis.text.y=element_text(size=18,face="bold"),
+        axis.title=element_text(size=26,face="bold"),
+        legend.title = element_text(size=22,face="bold"),
+        legend.text=element_text(size=20,face="bold"),
+        strip.text.x = element_text(size = 22,face="bold"),
+        plot.title = element_text(size=24,face="bold"),
+        aspect.ratio=1
+        )  
+
+scenes = c()
+renameMap = c()
+
+for (i in seq(4, 17)) {
+  sceneName <- paste("tree", i, sep="")
+  scenes <- c(scenes, sceneName)
+}
+renameMap <- seq(4, 17)
+names(renameMap) <- scenes
+
+dfLP <- dfMeans[dfMeans$Scene %in% scenes,]
+
+dfLP$Elapsed <- dfLP$Elapsed * 1000
+dfLP$TimeTraverse <- dfLP$TimeTraverse* 1000 
+dfLP$TimeBuild <- dfLP$TimeBuild* 1000
+dfLP$Scene <- factor(dfLP$Scene, levels = scenes,ordered = TRUE)
+dfLP$Scene <- revalue(dfLP$Scene, renameMap)
+#Scenes where factors, converting them to numeric lets them range from 1 to n. Hence, we need to add
+dfLP$Scene <- as.numeric(dfLP$Scene) + (4-1)
+dfLP$Mode <- factor(dfLP$Mode, c("naive", "lbvh", "rtx"),ordered = TRUE)
+dfLP$Mode <- revalue(dfLP$Mode, c("naive"="Naive", "lbvh"="LBVH", "rtx" = "RTX (Ours)"))
+
+p1<-ggplot(dfLP, aes(x=dfLP$Scene, y=dfLP$TimeTraverse, group=dfLP$Mode)) +
+  geom_line(aes(color=Mode),size=1.6)+
+  geom_point(aes(shape=Mode, color=Mode),size=3.5)+
+  #coord_cartesian(ylim = c(0, 20)) + 
+  #scale_y_continuous(trans='log2') +
+  labs(x="Binary Tree Depth", y="Mean Time (ms)") +
+  scale_x_continuous(breaks=c(2,4,6,8,10,12,14, 16,18)) + 
+  scale_color_manual(values = c("#E7B800", "#2E9FDF", "#FC4E07"))+
+  tSmallAxisLabel +
+  #theme(legend.position = "none")
+  ggsave("tree-traverse-lin.pdf", p1)
+#print(p)
+
+p2<-ggplot(dfLP, aes(x=dfLP$Scene, y=dfLP$TimeTraverse, group=dfLP$Mode)) +
+  geom_line(aes(color=Mode),size=1.6)+
+  geom_point(aes(shape=Mode, color=Mode),size=3.5)+
+  #geom_line(aes(linetype=Mode,color=Mode),size=1.4)+
+  #geom_point(aes(shape=Mode, color=Mode),size=3.0)+
+  #coord_cartesian(ylim = c(0, 20)) + 
+  scale_y_continuous(trans='log2') +
+  scale_x_continuous(breaks=c(2,4,6,8,10,12,14, 16,18)) + 
+  scale_color_manual(values = c("#E7B800", "#2E9FDF", "#FC4E07"))+
+#  coord_cartesian(xlim =c(4,18)) +
+  labs(x="Binary Tree Depth", y="Mean Time (ms)") +
+  #theme(legend.position = "none") +
+  tSmallAxisLabel
+  ggsave("tree-traverse-log.pdf", p2)
+#print(p)
+
+
+# Generate a list of the aligned plot objects
+pl <- align_plots(p1, p2, align="v")
+
+ggdraw(pl[[1]])
+#ggsave("tree-traverse-lin.pdf", p1, height = 7 , width = 7 * aspect_ratio)
+
+ggdraw(pl[[2]])
+#ggsave("tree-traverse-log.pdf", p2, height = 7 , width = 7 * aspect_ratio)
+
+
+```
+
+
+
+Plot with run time development over time with regression
+
+```{r}
+library(binr)
+library(caret)
+
+
+validity <- as.numeric(which(dfA$Mode == "naive"))
+
+df <- dfA[validity,]
+
+par(new=TRUE)
+bx_labels=seq(0.0, 1000.0, 50.0)
+box_labels <- c()
+for (i in 2:length(bx_labels)-1) {
+  l <- paste("(", bx_labels[i], ",",  bx_labels[i+1], "]", sep="")
+  print(l)
+  box_labels <- c(box_labels, l)
+}
+
+filtered_data_bins_ <- cut(df$Iteration, breaks=bx_labels)
+
+dif_pred_target <- df$Elapsed
+
+boxplot(dif_pred_target~filtered_data_bins_,data=df, outline=FALSE, ylim=c(0.004,0.05),
+    axes = FALSE, ann = FALSE)
+#las = 2, ylab="Deviation(m)", xlab="Target Distance Intervals(m)"
+#)
+## add axes
+#axis(1, at = 1:23, labels = box_labels, cex.axis = 1.2, srt = 45, adj = 1,)
+
+#text(seq(1.5,end_point,by=2), par("usr")[3]-0.25, 
+#     srt = 60, adj= 1, xpd = TRUE,
+#     labels =  box_labels, cex=0.65)
+
+#text(cex=0.65, x=bplt-0.25, y=-1.25, box_labels, xpd=TRUE, srt=45)
+
+axis(1, at = seq(1, length(box_labels)), labels = FALSE)
+#- 0.0005
+text(x = seq_along(box_labels), y = par("usr")[3] - 0.002, srt = 45, adj = 1,
+     labels = box_labels, xpd = TRUE)
+axis(2, cex.axis = 0.8)
+
+## now draw the y-axis annotation on a different line out from the plot
+## using the extra margin space:
+title(ylab = "Run time (sec)", xlab = "", cex.lab = 1.2,
+      line = 2.5 )
+
+text(x=12,y=-0.26,"Iteration", cex = 1.0, xpd = TRUE)
+## draw the box to finish off
+box()
+
+grid(nx=NA, ny=NULL, lwd = 2)
+par(new=TRUE)
+#boxplot(dif_pred_target~filtered_data_bins_,data=depth_accuracy, outline=FALSE,
+#        las = 2,  ylab="Deviation(m)", xlab="Target Distance Intervals(m)"
+#        )
+means <- tapply(dif_pred_target,filtered_data_bins_,mean)
+
+#plot(x=depth_accuracy$target,y=dif_pred_target)
+
+#validity <- as.numeric(which(filtered_data_bins_ < length(bx_labels)))
+
+#filtered_target = depth_accuracy$target[validity]
+#filtered_dif_pref = dif_pred_target[validity]
+means_c <- means
+rownames(means_c)<-c()
+x_pos <- bx_labels[2:21]
+
+df.pred <- data.frame(x_pos, means_c)
+colnames(df.pred) <- c("x", "mean")
+
+regmodel <- lm(df.pred$mean ~ df.pred$x)
+predicted <- predict(regmodel, data=df.pred)
+#x_steps <- seq(0,7, 0.25) * 23
+lines(df.pred$x / 6 * 24 -1, predicted, col = "green", lwd = 2)
+points(means,col="red",pch=18)
+#abline(regmodel, col = "darkgreen", lwd = 3)
+
+
+```
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+

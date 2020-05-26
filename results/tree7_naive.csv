@@ -1,0 +1,3 @@
+AvgTimeRepulsiveForce,Temperature,NumNodes,Iteration,NumEdges,Elapsed,TimeDisperse,TimeAttractiveForces,Memory,TimeTraverseAccel,TimeRepulsiveForce,kValue,TimeBuildAccel,TimeCopyBack
+0.000200576,1.5,255,1,254,0.000200576,8.192e-06,1.0176e-05,0.0,0.00019456,0.000200576,0.939336,9.664e-06,1.536e-05
+0.00143907,1.4985,255,2,254,0.00267757,0.00135424,0.00134349,0.0,0.00132998,0.00267757,0.939336,2.0352e-05,7.904e-06

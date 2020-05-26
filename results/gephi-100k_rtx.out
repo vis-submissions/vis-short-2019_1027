@@ -1,0 +1,1519 @@
+Inputfile: ../data/gephi/gephi_100k.csv
+Loading file <../data/gephi/gephi_100k.csv>
+LayouterMode: RTX
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 1
+Elapsed: 0.0137678
+TimeRepulsiveForce: 0.0137678
+AvgTimeRepulsiveForce: 0.0137678
+TimeBuildAccel: 0.00829546
+TimeTraverseAccel: 0.0122981
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 26.1
+TimeAttractiveForces: 0.00124592
+TimeDisperse: 0.00119622
+TimeCopyBack: 0.000111104
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 2
+Elapsed: 0.0118424
+TimeRepulsiveForce: 0.0118424
+AvgTimeRepulsiveForce: 0.0128051
+TimeBuildAccel: 0.00884486
+TimeTraverseAccel: 0.0105292
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 26.0739
+TimeAttractiveForces: 0.00128672
+TimeDisperse: 0.00124448
+TimeCopyBack: 0.000106624
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 3
+Elapsed: 0.0115201
+TimeRepulsiveForce: 0.0115201
+AvgTimeRepulsiveForce: 0.0123768
+TimeBuildAccel: 0.00829411
+TimeTraverseAccel: 0.010318
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 26.0479
+TimeAttractiveForces: 0.00138054
+TimeDisperse: 0.00136144
+TimeCopyBack: 0.000104576
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 4
+Elapsed: 0.0114237
+TimeRepulsiveForce: 0.0114237
+AvgTimeRepulsiveForce: 0.0121385
+TimeBuildAccel: 0.00785616
+TimeTraverseAccel: 0.010195
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 26.0219
+TimeAttractiveForces: 0.00119011
+TimeDisperse: 0.00115699
+TimeCopyBack: 9.6576e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 5
+Elapsed: 0.0129732
+TimeRepulsiveForce: 0.0129732
+AvgTimeRepulsiveForce: 0.0123054
+TimeBuildAccel: 0.0087976
+TimeTraverseAccel: 0.0118164
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.9959
+TimeAttractiveForces: 0.00117936
+TimeDisperse: 0.00115917
+TimeCopyBack: 9.7728e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 6
+Elapsed: 0.0160996
+TimeRepulsiveForce: 0.0160996
+AvgTimeRepulsiveForce: 0.0129378
+TimeBuildAccel: 0.0091481
+TimeTraverseAccel: 0.0147603
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.9699
+TimeAttractiveForces: 0.00118186
+TimeDisperse: 0.0014071
+TimeCopyBack: 9.9552e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 7
+Elapsed: 0.0150723
+TimeRepulsiveForce: 0.0150723
+AvgTimeRepulsiveForce: 0.0132427
+TimeBuildAccel: 0.0081672
+TimeTraverseAccel: 0.0139243
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.9439
+TimeAttractiveForces: 0.000572896
+TimeDisperse: 1.024e-05
+TimeCopyBack: 0.000100192
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 8
+Elapsed: 0.017481
+TimeRepulsiveForce: 0.017481
+AvgTimeRepulsiveForce: 0.0137725
+TimeBuildAccel: 0.00969805
+TimeTraverseAccel: 0.0162558
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.918
+TimeAttractiveForces: 0.00129024
+TimeDisperse: 0.00115507
+TimeCopyBack: 0.000102336
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 9
+Elapsed: 0.0178593
+TimeRepulsiveForce: 0.0178593
+AvgTimeRepulsiveForce: 0.0142266
+TimeBuildAccel: 0.00817786
+TimeTraverseAccel: 0.0165542
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.8921
+TimeAttractiveForces: 0.00133034
+TimeDisperse: 0.00120422
+TimeCopyBack: 0.000102368
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 10
+Elapsed: 0.0180299
+TimeRepulsiveForce: 0.0180299
+AvgTimeRepulsiveForce: 0.0146069
+TimeBuildAccel: 0.00819325
+TimeTraverseAccel: 0.016824
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.8663
+TimeAttractiveForces: 0.00138854
+TimeDisperse: 0.00115302
+TimeCopyBack: 0.000102848
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 11
+Elapsed: 0.0175116
+TimeRepulsiveForce: 0.0175116
+AvgTimeRepulsiveForce: 0.014871
+TimeBuildAccel: 0.00784182
+TimeTraverseAccel: 0.0163146
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.8404
+TimeAttractiveForces: 0.00134509
+TimeDisperse: 0.00137437
+TimeCopyBack: 0.000101408
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 12
+Elapsed: 0.0184609
+TimeRepulsiveForce: 0.0184609
+AvgTimeRepulsiveForce: 0.0151701
+TimeBuildAccel: 0.00837482
+TimeTraverseAccel: 0.0171364
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.8146
+TimeAttractiveForces: 0.00118
+TimeDisperse: 0.00117629
+TimeCopyBack: 0.000102912
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 13
+Elapsed: 0.0179234
+TimeRepulsiveForce: 0.0179234
+AvgTimeRepulsiveForce: 0.0153819
+TimeBuildAccel: 0.00807226
+TimeTraverseAccel: 0.016756
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.7888
+TimeAttractiveForces: 0.00119165
+TimeDisperse: 0.00118426
+TimeCopyBack: 0.000101696
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 14
+Elapsed: 0.0185025
+TimeRepulsiveForce: 0.0185025
+AvgTimeRepulsiveForce: 0.0156048
+TimeBuildAccel: 0.00822752
+TimeTraverseAccel: 0.0173247
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.763
+TimeAttractiveForces: 0.00140106
+TimeDisperse: 0.00122826
+TimeCopyBack: 9.9808e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 15
+Elapsed: 0.0181912
+TimeRepulsiveForce: 0.0181912
+AvgTimeRepulsiveForce: 0.0157773
+TimeBuildAccel: 0.00837622
+TimeTraverseAccel: 0.0169378
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.7373
+TimeAttractiveForces: 0.00148662
+TimeDisperse: 0.00147578
+TimeCopyBack: 0.000101248
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 16
+Elapsed: 0.0192844
+TimeRepulsiveForce: 0.0192844
+AvgTimeRepulsiveForce: 0.0159965
+TimeBuildAccel: 0.00855696
+TimeTraverseAccel: 0.018102
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.7116
+TimeAttractiveForces: 0.00118938
+TimeDisperse: 0.00128112
+TimeCopyBack: 0.000101952
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 17
+Elapsed: 0.0185465
+TimeRepulsiveForce: 0.0185465
+AvgTimeRepulsiveForce: 0.0161465
+TimeBuildAccel: 0.00848032
+TimeTraverseAccel: 0.0173075
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.6859
+TimeAttractiveForces: 0.00116922
+TimeDisperse: 0.00117235
+TimeCopyBack: 0.000103072
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 18
+Elapsed: 0.0182853
+TimeRepulsiveForce: 0.0182853
+AvgTimeRepulsiveForce: 0.0162653
+TimeBuildAccel: 0.0081047
+TimeTraverseAccel: 0.0169686
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.6602
+TimeAttractiveForces: 0.00117994
+TimeDisperse: 0.00119453
+TimeCopyBack: 9.9776e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 19
+Elapsed: 0.0186094
+TimeRepulsiveForce: 0.0186094
+AvgTimeRepulsiveForce: 0.0163887
+TimeBuildAccel: 0.00853405
+TimeTraverseAccel: 0.0174325
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.6346
+TimeAttractiveForces: 0.00127469
+TimeDisperse: 0.00133491
+TimeCopyBack: 9.8528e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 20
+Elapsed: 0.0198866
+TimeRepulsiveForce: 0.0198866
+AvgTimeRepulsiveForce: 0.0165636
+TimeBuildAccel: 0.00948518
+TimeTraverseAccel: 0.0186655
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.609
+TimeAttractiveForces: 0.0011776
+TimeDisperse: 0.00117165
+TimeCopyBack: 9.7344e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 21
+Elapsed: 0.0179097
+TimeRepulsiveForce: 0.0179097
+AvgTimeRepulsiveForce: 0.0166277
+TimeBuildAccel: 0.00789856
+TimeTraverseAccel: 0.0167039
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.5834
+TimeAttractiveForces: 0.00121408
+TimeDisperse: 0.00115574
+TimeCopyBack: 0.000102848
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 22
+Elapsed: 0.0182346
+TimeRepulsiveForce: 0.0182346
+AvgTimeRepulsiveForce: 0.0167007
+TimeBuildAccel: 0.00811686
+TimeTraverseAccel: 0.0170119
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.5579
+TimeAttractiveForces: 0.00117126
+TimeDisperse: 0.00117597
+TimeCopyBack: 0.000102144
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 23
+Elapsed: 0.0182709
+TimeRepulsiveForce: 0.0182709
+AvgTimeRepulsiveForce: 0.016769
+TimeBuildAccel: 0.00810266
+TimeTraverseAccel: 0.0170955
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.5323
+TimeAttractiveForces: 0.00128234
+TimeDisperse: 0.00116346
+TimeCopyBack: 9.7856e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 24
+Elapsed: 0.0192689
+TimeRepulsiveForce: 0.0192689
+AvgTimeRepulsiveForce: 0.0168731
+TimeBuildAccel: 0.00855987
+TimeTraverseAccel: 0.0179033
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.5068
+TimeAttractiveForces: 0.00124989
+TimeDisperse: 0.0012288
+TimeCopyBack: 0.000104224
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 25
+Elapsed: 0.0188629
+TimeRepulsiveForce: 0.0188629
+AvgTimeRepulsiveForce: 0.0169527
+TimeBuildAccel: 0.00859939
+TimeTraverseAccel: 0.0176606
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.4813
+TimeAttractiveForces: 0.00116544
+TimeDisperse: 0.00115712
+TimeCopyBack: 0.000102656
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 26
+Elapsed: 0.0179979
+TimeRepulsiveForce: 0.0179979
+AvgTimeRepulsiveForce: 0.0169929
+TimeBuildAccel: 0.00780883
+TimeTraverseAccel: 0.0167793
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.4559
+TimeAttractiveForces: 0.00128346
+TimeDisperse: 0.00116013
+TimeCopyBack: 0.000102656
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 27
+Elapsed: 0.0183268
+TimeRepulsiveForce: 0.0183268
+AvgTimeRepulsiveForce: 0.0170423
+TimeBuildAccel: 0.00808867
+TimeTraverseAccel: 0.0169219
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.4304
+TimeAttractiveForces: 0.00119398
+TimeDisperse: 0.00117446
+TimeCopyBack: 0.000101568
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 28
+Elapsed: 0.0197721
+TimeRepulsiveForce: 0.0197721
+AvgTimeRepulsiveForce: 0.0171398
+TimeBuildAccel: 0.00903002
+TimeTraverseAccel: 0.0185328
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.405
+TimeAttractiveForces: 0.00119062
+TimeDisperse: 0.00117952
+TimeCopyBack: 9.7216e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 29
+Elapsed: 0.0187741
+TimeRepulsiveForce: 0.0187741
+AvgTimeRepulsiveForce: 0.0171962
+TimeBuildAccel: 0.00851664
+TimeTraverseAccel: 0.0174254
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.3797
+TimeAttractiveForces: 0.00132973
+TimeDisperse: 0.0013344
+TimeCopyBack: 9.7312e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 30
+Elapsed: 0.0197367
+TimeRepulsiveForce: 0.0197367
+AvgTimeRepulsiveForce: 0.0172809
+TimeBuildAccel: 0.00917923
+TimeTraverseAccel: 0.0184301
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.3543
+TimeAttractiveForces: 0.0012569
+TimeDisperse: 0.00120035
+TimeCopyBack: 9.696e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 31
+Elapsed: 0.019155
+TimeRepulsiveForce: 0.019155
+AvgTimeRepulsiveForce: 0.0173413
+TimeBuildAccel: 0.00890397
+TimeTraverseAccel: 0.0179716
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.329
+TimeAttractiveForces: 0.00121168
+TimeDisperse: 0.00121446
+TimeCopyBack: 0.000102272
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 32
+Elapsed: 0.0193345
+TimeRepulsiveForce: 0.0193345
+AvgTimeRepulsiveForce: 0.0174036
+TimeBuildAccel: 0.00894339
+TimeTraverseAccel: 0.0181855
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.3037
+TimeAttractiveForces: 0.00120637
+TimeDisperse: 0.0011873
+TimeCopyBack: 0.00010128
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 33
+Elapsed: 0.0193135
+TimeRepulsiveForce: 0.0193135
+AvgTimeRepulsiveForce: 0.0174615
+TimeBuildAccel: 0.00890115
+TimeTraverseAccel: 0.0180456
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.2784
+TimeAttractiveForces: 0.00117517
+TimeDisperse: 0.00128426
+TimeCopyBack: 0.000104928
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 34
+Elapsed: 0.0189292
+TimeRepulsiveForce: 0.0189292
+AvgTimeRepulsiveForce: 0.0175046
+TimeBuildAccel: 0.0081071
+TimeTraverseAccel: 0.0174668
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.2531
+TimeAttractiveForces: 0.00133706
+TimeDisperse: 0.0012503
+TimeCopyBack: 0.000101472
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 35
+Elapsed: 0.0202957
+TimeRepulsiveForce: 0.0202957
+AvgTimeRepulsiveForce: 0.0175844
+TimeBuildAccel: 0.00966096
+TimeTraverseAccel: 0.0189138
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.2279
+TimeAttractiveForces: 0.0012473
+TimeDisperse: 0.00124694
+TimeCopyBack: 9.7408e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 36
+Elapsed: 0.0194662
+TimeRepulsiveForce: 0.0194662
+AvgTimeRepulsiveForce: 0.0176367
+TimeBuildAccel: 0.00867299
+TimeTraverseAccel: 0.0180141
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.2027
+TimeAttractiveForces: 0.00133283
+TimeDisperse: 0.00125133
+TimeCopyBack: 0.000103168
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 37
+Elapsed: 0.0204376
+TimeRepulsiveForce: 0.0204376
+AvgTimeRepulsiveForce: 0.0177124
+TimeBuildAccel: 0.0097359
+TimeTraverseAccel: 0.0190816
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.1775
+TimeAttractiveForces: 0.00134746
+TimeDisperse: 0.00131072
+TimeCopyBack: 0.000102784
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 38
+Elapsed: 0.0201093
+TimeRepulsiveForce: 0.0201093
+AvgTimeRepulsiveForce: 0.0177754
+TimeBuildAccel: 0.00904474
+TimeTraverseAccel: 0.0186516
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.1524
+TimeAttractiveForces: 0.00133763
+TimeDisperse: 0.00136211
+TimeCopyBack: 0.000102624
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 39
+Elapsed: 0.0192388
+TimeRepulsiveForce: 0.0192388
+AvgTimeRepulsiveForce: 0.017813
+TimeBuildAccel: 0.00847939
+TimeTraverseAccel: 0.0177672
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.1272
+TimeAttractiveForces: 0.00123613
+TimeDisperse: 0.0013783
+TimeCopyBack: 0.00010416
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 40
+Elapsed: 0.019906
+TimeRepulsiveForce: 0.019906
+AvgTimeRepulsiveForce: 0.0178653
+TimeBuildAccel: 0.0092239
+TimeTraverseAccel: 0.0185918
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.1021
+TimeAttractiveForces: 0.00130979
+TimeDisperse: 0.00131965
+TimeCopyBack: 0.000102656
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 41
+Elapsed: 0.0198315
+TimeRepulsiveForce: 0.0198315
+AvgTimeRepulsiveForce: 0.0179132
+TimeBuildAccel: 0.00934835
+TimeTraverseAccel: 0.0185193
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.0771
+TimeAttractiveForces: 0.0011656
+TimeDisperse: 0.00131072
+TimeCopyBack: 9.7728e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 42
+Elapsed: 0.0207597
+TimeRepulsiveForce: 0.0207597
+AvgTimeRepulsiveForce: 0.017981
+TimeBuildAccel: 0.0100636
+TimeTraverseAccel: 0.0194148
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.052
+TimeAttractiveForces: 0.00131443
+TimeDisperse: 0.0013312
+TimeCopyBack: 0.000102272
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 43
+Elapsed: 0.0199534
+TimeRepulsiveForce: 0.0199534
+AvgTimeRepulsiveForce: 0.0180269
+TimeBuildAccel: 0.00944288
+TimeTraverseAccel: 0.0186979
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.027
+TimeAttractiveForces: 0.00131437
+TimeDisperse: 0.00129574
+TimeCopyBack: 0.00010432
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 44
+Elapsed: 0.0204319
+TimeRepulsiveForce: 0.0204319
+AvgTimeRepulsiveForce: 0.0180815
+TimeBuildAccel: 0.00939104
+TimeTraverseAccel: 0.0189755
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 25.002
+TimeAttractiveForces: 0.00133501
+TimeDisperse: 0.00125133
+TimeCopyBack: 9.9584e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 45
+Elapsed: 0.0201812
+TimeRepulsiveForce: 0.0201812
+AvgTimeRepulsiveForce: 0.0181282
+TimeBuildAccel: 0.0097135
+TimeTraverseAccel: 0.0188276
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.977
+TimeAttractiveForces: 0.00132096
+TimeDisperse: 0.00130048
+TimeCopyBack: 0.000100192
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 46
+Elapsed: 0.0206146
+TimeRepulsiveForce: 0.0206146
+AvgTimeRepulsiveForce: 0.0181823
+TimeBuildAccel: 0.00980102
+TimeTraverseAccel: 0.0192589
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.952
+TimeAttractiveForces: 0.00116717
+TimeDisperse: 0.00138483
+TimeCopyBack: 0.00010096
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 47
+Elapsed: 0.020312
+TimeRepulsiveForce: 0.020312
+AvgTimeRepulsiveForce: 0.0182276
+TimeBuildAccel: 0.00971725
+TimeTraverseAccel: 0.0190201
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.9271
+TimeAttractiveForces: 0.0100229
+TimeDisperse: 0.00116086
+TimeCopyBack: 0.000104544
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 48
+Elapsed: 0.0184078
+TimeRepulsiveForce: 0.0184078
+AvgTimeRepulsiveForce: 0.0182313
+TimeBuildAccel: 0.00798317
+TimeTraverseAccel: 0.0171445
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.9022
+TimeAttractiveForces: 0.00127398
+TimeDisperse: 0.00126157
+TimeCopyBack: 0.000103264
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 49
+Elapsed: 0.0185827
+TimeRepulsiveForce: 0.0185827
+AvgTimeRepulsiveForce: 0.0182385
+TimeBuildAccel: 0.00825322
+TimeTraverseAccel: 0.0173631
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.8773
+TimeAttractiveForces: 0.00117763
+TimeDisperse: 0.00118845
+TimeCopyBack: 0.000100704
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 50
+Elapsed: 0.0186027
+TimeRepulsiveForce: 0.0186027
+AvgTimeRepulsiveForce: 0.0182458
+TimeBuildAccel: 0.00807488
+TimeTraverseAccel: 0.01738
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.8525
+TimeAttractiveForces: 0.00119168
+TimeDisperse: 0.00127059
+TimeCopyBack: 0.000103488
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 51
+Elapsed: 0.0190282
+TimeRepulsiveForce: 0.0190282
+AvgTimeRepulsiveForce: 0.0182611
+TimeBuildAccel: 0.00907456
+TimeTraverseAccel: 0.0178526
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.8276
+TimeAttractiveForces: 0.00116896
+TimeDisperse: 0.0012305
+TimeCopyBack: 0.000101728
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 52
+Elapsed: 0.019909
+TimeRepulsiveForce: 0.019909
+AvgTimeRepulsiveForce: 0.0182928
+TimeBuildAccel: 0.0092607
+TimeTraverseAccel: 0.0185532
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.8028
+TimeAttractiveForces: 0.00116342
+TimeDisperse: 0.00115917
+TimeCopyBack: 0.000101216
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 53
+Elapsed: 0.0179913
+TimeRepulsiveForce: 0.0179913
+AvgTimeRepulsiveForce: 0.0182871
+TimeBuildAccel: 0.00782995
+TimeTraverseAccel: 0.0167695
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.7781
+TimeAttractiveForces: 0.00117597
+TimeDisperse: 0.00117965
+TimeCopyBack: 0.000101248
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 54
+Elapsed: 0.0183292
+TimeRepulsiveForce: 0.0183292
+AvgTimeRepulsiveForce: 0.0182879
+TimeBuildAccel: 0.00785846
+TimeTraverseAccel: 0.0170256
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.7533
+TimeAttractiveForces: 0.0012632
+TimeDisperse: 0.00118
+TimeCopyBack: 0.000101792
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 55
+Elapsed: 0.0198621
+TimeRepulsiveForce: 0.0198621
+AvgTimeRepulsiveForce: 0.0183165
+TimeBuildAccel: 0.00971347
+TimeTraverseAccel: 0.018627
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.7286
+TimeAttractiveForces: 0.00126195
+TimeDisperse: 0.0012847
+TimeCopyBack: 0.000109152
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 56
+Elapsed: 0.0194374
+TimeRepulsiveForce: 0.0194374
+AvgTimeRepulsiveForce: 0.0183365
+TimeBuildAccel: 0.00866016
+TimeTraverseAccel: 0.0182885
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.7039
+TimeAttractiveForces: 0.00121997
+TimeDisperse: 0.00125459
+TimeCopyBack: 9.8496e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 57
+Elapsed: 0.0182238
+TimeRepulsiveForce: 0.0182238
+AvgTimeRepulsiveForce: 0.0183346
+TimeBuildAccel: 0.00809635
+TimeTraverseAccel: 0.0170691
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.6792
+TimeAttractiveForces: 0.00140118
+TimeDisperse: 0.00128614
+TimeCopyBack: 9.9104e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 58
+Elapsed: 0.0199719
+TimeRepulsiveForce: 0.0199719
+AvgTimeRepulsiveForce: 0.0183628
+TimeBuildAccel: 0.00962957
+TimeTraverseAccel: 0.0186784
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.6545
+TimeAttractiveForces: 0.00130422
+TimeDisperse: 0.00128301
+TimeCopyBack: 0.000103296
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 59
+Elapsed: 0.0182574
+TimeRepulsiveForce: 0.0182574
+AvgTimeRepulsiveForce: 0.018361
+TimeBuildAccel: 0.00823622
+TimeTraverseAccel: 0.0171084
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.6299
+TimeAttractiveForces: 0.00117354
+TimeDisperse: 0.00125459
+TimeCopyBack: 0.000100416
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 60
+Elapsed: 0.0189081
+TimeRepulsiveForce: 0.0189081
+AvgTimeRepulsiveForce: 0.0183701
+TimeBuildAccel: 0.00828918
+TimeTraverseAccel: 0.0175969
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.6053
+TimeAttractiveForces: 0.00120832
+TimeDisperse: 0.00121536
+TimeCopyBack: 9.5488e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 61
+Elapsed: 0.0180987
+TimeRepulsiveForce: 0.0180987
+AvgTimeRepulsiveForce: 0.0183657
+TimeBuildAccel: 0.00821914
+TimeTraverseAccel: 0.0168248
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.5807
+TimeAttractiveForces: 0.0013416
+TimeDisperse: 0.0013271
+TimeCopyBack: 0.000100512
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 62
+Elapsed: 0.0182431
+TimeRepulsiveForce: 0.0182431
+AvgTimeRepulsiveForce: 0.0183637
+TimeBuildAccel: 0.00832006
+TimeTraverseAccel: 0.0170588
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.5562
+TimeAttractiveForces: 0.0011657
+TimeDisperse: 0.00121232
+TimeCopyBack: 9.9744e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 63
+Elapsed: 0.0177072
+TimeRepulsiveForce: 0.0177072
+AvgTimeRepulsiveForce: 0.0183533
+TimeBuildAccel: 0.00780685
+TimeTraverseAccel: 0.0165511
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.5316
+TimeAttractiveForces: 0.00142787
+TimeDisperse: 0.00128
+TimeCopyBack: 9.808e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 64
+Elapsed: 0.0188411
+TimeRepulsiveForce: 0.0188411
+AvgTimeRepulsiveForce: 0.0183609
+TimeBuildAccel: 0.00835328
+TimeTraverseAccel: 0.0175734
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.5071
+TimeAttractiveForces: 0.00116736
+TimeDisperse: 0.00115318
+TimeCopyBack: 0.000101856
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 65
+Elapsed: 0.0181522
+TimeRepulsiveForce: 0.0181522
+AvgTimeRepulsiveForce: 0.0183577
+TimeBuildAccel: 0.00821574
+TimeTraverseAccel: 0.0169825
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.4826
+TimeAttractiveForces: 0.00130605
+TimeDisperse: 0.00121472
+TimeCopyBack: 0.000104544
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 66
+Elapsed: 0.0185971
+TimeRepulsiveForce: 0.0185971
+AvgTimeRepulsiveForce: 0.0183613
+TimeBuildAccel: 0.00827462
+TimeTraverseAccel: 0.0174043
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.4582
+TimeAttractiveForces: 0.00127002
+TimeDisperse: 0.00133325
+TimeCopyBack: 0.000103264
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 67
+Elapsed: 0.019306
+TimeRepulsiveForce: 0.019306
+AvgTimeRepulsiveForce: 0.0183754
+TimeBuildAccel: 0.00907472
+TimeTraverseAccel: 0.0181373
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.4337
+TimeAttractiveForces: 0.00131898
+TimeDisperse: 0.00125235
+TimeCopyBack: 0.000108064
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 68
+Elapsed: 0.0182422
+TimeRepulsiveForce: 0.0182422
+AvgTimeRepulsiveForce: 0.0183735
+TimeBuildAccel: 0.00802339
+TimeTraverseAccel: 0.0170673
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.4093
+TimeAttractiveForces: 0.00129846
+TimeDisperse: 0.00124314
+TimeCopyBack: 0.000101088
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 69
+Elapsed: 0.0178146
+TimeRepulsiveForce: 0.0178146
+AvgTimeRepulsiveForce: 0.0183654
+TimeBuildAccel: 0.00776579
+TimeTraverseAccel: 0.0166513
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.3849
+TimeAttractiveForces: 0.00126323
+TimeDisperse: 0.00129946
+TimeCopyBack: 0.000101792
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 70
+Elapsed: 0.0183769
+TimeRepulsiveForce: 0.0183769
+AvgTimeRepulsiveForce: 0.0183655
+TimeBuildAccel: 0.00811405
+TimeTraverseAccel: 0.0170993
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.3606
+TimeAttractiveForces: 0.00116531
+TimeDisperse: 0.0011544
+TimeCopyBack: 9.7216e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 71
+Elapsed: 0.0197431
+TimeRepulsiveForce: 0.0197431
+AvgTimeRepulsiveForce: 0.0183849
+TimeBuildAccel: 0.00958534
+TimeTraverseAccel: 0.0185062
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.3362
+TimeAttractiveForces: 0.00137875
+TimeDisperse: 0.00127395
+TimeCopyBack: 0.000103744
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 72
+Elapsed: 0.0193994
+TimeRepulsiveForce: 0.0193994
+AvgTimeRepulsiveForce: 0.018399
+TimeBuildAccel: 0.00901408
+TimeTraverseAccel: 0.0182223
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.3119
+TimeAttractiveForces: 0.00129757
+TimeDisperse: 0.00115651
+TimeCopyBack: 0.000103392
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 73
+Elapsed: 0.018181
+TimeRepulsiveForce: 0.018181
+AvgTimeRepulsiveForce: 0.018396
+TimeBuildAccel: 0.00819494
+TimeTraverseAccel: 0.0169358
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.2876
+TimeAttractiveForces: 0.00127443
+TimeDisperse: 0.00115917
+TimeCopyBack: 0.000103616
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 74
+Elapsed: 0.018362
+TimeRepulsiveForce: 0.018362
+AvgTimeRepulsiveForce: 0.0183956
+TimeBuildAccel: 0.00821869
+TimeTraverseAccel: 0.0171866
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.2634
+TimeAttractiveForces: 0.0013056
+TimeDisperse: 0.00116122
+TimeCopyBack: 9.728e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 75
+Elapsed: 0.0193231
+TimeRepulsiveForce: 0.0193231
+AvgTimeRepulsiveForce: 0.0184079
+TimeBuildAccel: 0.00895235
+TimeTraverseAccel: 0.0181727
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.2391
+TimeAttractiveForces: 0.00118794
+TimeDisperse: 0.00121846
+TimeCopyBack: 0.000100992
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 76
+Elapsed: 0.0189042
+TimeRepulsiveForce: 0.0189042
+AvgTimeRepulsiveForce: 0.0184145
+TimeBuildAccel: 0.0083464
+TimeTraverseAccel: 0.0175516
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.2149
+TimeAttractiveForces: 0.00131046
+TimeDisperse: 0.00129773
+TimeCopyBack: 0.000100448
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 77
+Elapsed: 0.0188366
+TimeRepulsiveForce: 0.0188366
+AvgTimeRepulsiveForce: 0.0184199
+TimeBuildAccel: 0.00855552
+TimeTraverseAccel: 0.0176039
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.1907
+TimeAttractiveForces: 0.00119357
+TimeDisperse: 0.00119002
+TimeCopyBack: 0.00010304
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 78
+Elapsed: 0.0181974
+TimeRepulsiveForce: 0.0181974
+AvgTimeRepulsiveForce: 0.0184171
+TimeBuildAccel: 0.00800848
+TimeTraverseAccel: 0.016965
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.1666
+TimeAttractiveForces: 0.00129024
+TimeDisperse: 0.00117379
+TimeCopyBack: 0.000101152
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 79
+Elapsed: 0.0183944
+TimeRepulsiveForce: 0.0183944
+AvgTimeRepulsiveForce: 0.0184168
+TimeBuildAccel: 0.00817494
+TimeTraverseAccel: 0.017058
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.1424
+TimeAttractiveForces: 0.00117565
+TimeDisperse: 0.00115274
+TimeCopyBack: 9.8144e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 80
+Elapsed: 0.0189762
+TimeRepulsiveForce: 0.0189762
+AvgTimeRepulsiveForce: 0.0184238
+TimeBuildAccel: 0.00862733
+TimeTraverseAccel: 0.0176583
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.1183
+TimeAttractiveForces: 0.00136954
+TimeDisperse: 0.00137011
+TimeCopyBack: 0.00010576
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 81
+Elapsed: 0.0198938
+TimeRepulsiveForce: 0.0198938
+AvgTimeRepulsiveForce: 0.0184419
+TimeBuildAccel: 0.0100225
+TimeTraverseAccel: 0.0186896
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.0942
+TimeAttractiveForces: 0.00118922
+TimeDisperse: 0.00117398
+TimeCopyBack: 0.000103232
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 82
+Elapsed: 0.0188045
+TimeRepulsiveForce: 0.0188045
+AvgTimeRepulsiveForce: 0.0184464
+TimeBuildAccel: 0.00857443
+TimeTraverseAccel: 0.0175736
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.0701
+TimeAttractiveForces: 0.00120483
+TimeDisperse: 0.00117965
+TimeCopyBack: 0.00010112
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 83
+Elapsed: 0.0181577
+TimeRepulsiveForce: 0.0181577
+AvgTimeRepulsiveForce: 0.0184429
+TimeBuildAccel: 0.00810608
+TimeTraverseAccel: 0.0169824
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.0461
+TimeAttractiveForces: 0.0011865
+TimeDisperse: 0.00121037
+TimeCopyBack: 9.9744e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 84
+Elapsed: 0.0182399
+TimeRepulsiveForce: 0.0182399
+AvgTimeRepulsiveForce: 0.0184405
+TimeBuildAccel: 0.00816794
+TimeTraverseAccel: 0.0170195
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 24.0221
+TimeAttractiveForces: 0.00128406
+TimeDisperse: 0.0012944
+TimeCopyBack: 0.000101664
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 85
+Elapsed: 0.0187039
+TimeRepulsiveForce: 0.0187039
+AvgTimeRepulsiveForce: 0.0184436
+TimeBuildAccel: 0.00857411
+TimeTraverseAccel: 0.0173473
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.9981
+TimeAttractiveForces: 0.00128038
+TimeDisperse: 0.00135626
+TimeCopyBack: 0.000103328
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 86
+Elapsed: 0.0194484
+TimeRepulsiveForce: 0.0194484
+AvgTimeRepulsiveForce: 0.0184553
+TimeBuildAccel: 0.00916928
+TimeTraverseAccel: 0.0181705
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.9741
+TimeAttractiveForces: 0.00116874
+TimeDisperse: 0.00127382
+TimeCopyBack: 0.000103232
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 87
+Elapsed: 0.0178307
+TimeRepulsiveForce: 0.0178307
+AvgTimeRepulsiveForce: 0.0184481
+TimeBuildAccel: 0.00785008
+TimeTraverseAccel: 0.01662
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.9501
+TimeAttractiveForces: 0.00126704
+TimeDisperse: 0.00116275
+TimeCopyBack: 0.000101728
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 88
+Elapsed: 0.0181918
+TimeRepulsiveForce: 0.0181918
+AvgTimeRepulsiveForce: 0.0184452
+TimeBuildAccel: 0.00810253
+TimeTraverseAccel: 0.0167987
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.9262
+TimeAttractiveForces: 0.00120013
+TimeDisperse: 0.00116461
+TimeCopyBack: 0.000103648
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 89
+Elapsed: 0.019852
+TimeRepulsiveForce: 0.019852
+AvgTimeRepulsiveForce: 0.018461
+TimeBuildAccel: 0.00976221
+TimeTraverseAccel: 0.0185893
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.9023
+TimeAttractiveForces: 0.00125952
+TimeDisperse: 0.00125331
+TimeCopyBack: 9.6832e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 90
+Elapsed: 0.0184839
+TimeRepulsiveForce: 0.0184839
+AvgTimeRepulsiveForce: 0.0184612
+TimeBuildAccel: 0.00813299
+TimeTraverseAccel: 0.0172205
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.8784
+TimeAttractiveForces: 0.00135216
+TimeDisperse: 0.00115264
+TimeCopyBack: 9.648e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 91
+Elapsed: 0.0179786
+TimeRepulsiveForce: 0.0179786
+AvgTimeRepulsiveForce: 0.0184559
+TimeBuildAccel: 0.00803139
+TimeTraverseAccel: 0.0166547
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.8546
+TimeAttractiveForces: 0.00119946
+TimeDisperse: 0.00117965
+TimeCopyBack: 9.9456e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 92
+Elapsed: 0.018349
+TimeRepulsiveForce: 0.018349
+AvgTimeRepulsiveForce: 0.0184548
+TimeBuildAccel: 0.00794112
+TimeTraverseAccel: 0.0170698
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.8307
+TimeAttractiveForces: 0.00118979
+TimeDisperse: 0.00117635
+TimeCopyBack: 0.000101312
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 93
+Elapsed: 0.0190946
+TimeRepulsiveForce: 0.0190946
+AvgTimeRepulsiveForce: 0.0184616
+TimeBuildAccel: 0.00871773
+TimeTraverseAccel: 0.0179252
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.8069
+TimeAttractiveForces: 0.00117152
+TimeDisperse: 0.00138682
+TimeCopyBack: 0.000103776
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 94
+Elapsed: 0.0185626
+TimeRepulsiveForce: 0.0185626
+AvgTimeRepulsiveForce: 0.0184627
+TimeBuildAccel: 0.0083127
+TimeTraverseAccel: 0.0171883
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.7831
+TimeAttractiveForces: 0.00124957
+TimeDisperse: 0.00123251
+TimeCopyBack: 0.000101408
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 95
+Elapsed: 0.0188249
+TimeRepulsiveForce: 0.0188249
+AvgTimeRepulsiveForce: 0.0184665
+TimeBuildAccel: 0.00858138
+TimeTraverseAccel: 0.0175713
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.7594
+TimeAttractiveForces: 0.0012896
+TimeDisperse: 0.00125174
+TimeCopyBack: 0.00010064
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 96
+Elapsed: 0.0189001
+TimeRepulsiveForce: 0.0189001
+AvgTimeRepulsiveForce: 0.018471
+TimeBuildAccel: 0.00893834
+TimeTraverseAccel: 0.0177506
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.7357
+TimeAttractiveForces: 0.00120832
+TimeDisperse: 0.00116323
+TimeCopyBack: 0.000104544
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 97
+Elapsed: 0.0188098
+TimeRepulsiveForce: 0.0188098
+AvgTimeRepulsiveForce: 0.0184745
+TimeBuildAccel: 0.00868291
+TimeTraverseAccel: 0.0175753
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.7119
+TimeAttractiveForces: 0.001192
+TimeDisperse: 0.00118093
+TimeCopyBack: 0.000106304
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 98
+Elapsed: 0.0185404
+TimeRepulsiveForce: 0.0185404
+AvgTimeRepulsiveForce: 0.0184752
+TimeBuildAccel: 0.00826758
+TimeTraverseAccel: 0.0173055
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.6882
+TimeAttractiveForces: 0.00121859
+TimeDisperse: 0.0011735
+TimeCopyBack: 0.00011376
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 99
+Elapsed: 0.0200924
+TimeRepulsiveForce: 0.0200924
+AvgTimeRepulsiveForce: 0.0184915
+TimeBuildAccel: 0.00991082
+TimeTraverseAccel: 0.0188354
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.6646
+TimeAttractiveForces: 0.00130778
+TimeDisperse: 0.00123226
+TimeCopyBack: 0.000101664
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 100
+Elapsed: 0.0181462
+TimeRepulsiveForce: 0.0181462
+AvgTimeRepulsiveForce: 0.0184881
+TimeBuildAccel: 0.00803024
+TimeTraverseAccel: 0.0168967
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.6409
+TimeAttractiveForces: 0.00129619
+TimeDisperse: 0.00125805
+TimeCopyBack: 9.8752e-05
+
+[1;33m@owl: bvh build mem: 66.60K items, 1.56Mb bounds, 4.68Mb temp, 3.22Mb initBVH, 0b finalBVH[0m
+Iteration: 101
+Elapsed: 0.0181444
+TimeRepulsiveForce: 0.0181444
+AvgTimeRepulsiveForce: 0.0184847
+TimeBuildAccel: 0.00814336
+TimeTraverseAccel: 0.0169652
+NumNodes: 68200
+NumEdges: 101102
+kValue: 0.999421
+Temperature: 23.6173
+TimeAttractiveForces: 0.00126566
+TimeDisperse: 0.00134554
+TimeCopyBack: 9.776e-05
+
+Total time for 100 iterations: 3.13784 sec.

@@ -1,0 +1,88 @@
+Inputfile: ../data/deezer_clean_data/RO_edges.csv
+Loading file <../data/deezer_clean_data/RO_edges.csv>
+NumNodes: 41773
+LayouterMode: LBVH
+Iteration: 1
+Elapsed: 0.0025353
+RepulsiveFore: 0.0025353
+
+Iteration: 2
+Elapsed: 0.0343894
+RepulsiveFore: 0.0184624
+
+Iteration: 3
+Elapsed: 0.0253335
+RepulsiveFore: 0.0207527
+
+Iteration: 4
+Elapsed: 0.0289356
+RepulsiveFore: 0.0227985
+
+Iteration: 5
+Elapsed: 0.0374647
+RepulsiveFore: 0.0257317
+
+Iteration: 6
+Elapsed: 0.0320425
+RepulsiveFore: 0.0267835
+
+Iteration: 7
+Elapsed: 0.0578698
+RepulsiveFore: 0.0312244
+
+Iteration: 8
+Elapsed: 0.0317411
+RepulsiveFore: 0.031289
+
+Iteration: 9
+Elapsed: 0.068719
+RepulsiveFore: 0.0354479
+
+Iteration: 10
+Elapsed: 0.037077
+RepulsiveFore: 0.0356108
+
+Iteration: 11
+Elapsed: 0.067217
+RepulsiveFore: 0.0384841
+
+Iteration: 12
+Elapsed: 0.0455939
+RepulsiveFore: 0.0390766
+
+Iteration: 13
+Elapsed: 0.0677412
+RepulsiveFore: 0.0412815
+
+Iteration: 14
+Elapsed: 0.0325825
+RepulsiveFore: 0.0406602
+
+Iteration: 15
+Elapsed: 0.0651525
+RepulsiveFore: 0.042293
+
+Iteration: 16
+Elapsed: 0.0412713
+RepulsiveFore: 0.0422291
+
+Iteration: 17
+Elapsed: 0.0687407
+RepulsiveFore: 0.0437886
+
+Iteration: 18
+Elapsed: 0.0404716
+RepulsiveFore: 0.0436044
+
+Iteration: 19
+Elapsed: 0.0669789
+RepulsiveFore: 0.0448346
+
+Iteration: 20
+Elapsed: 0.0378862
+RepulsiveFore: 0.0444872
+
+Iteration: 21
+Elapsed: 0.0737422
+RepulsiveFore: 0.0458803
+

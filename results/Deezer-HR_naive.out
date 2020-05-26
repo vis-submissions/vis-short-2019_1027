@@ -1,0 +1,88 @@
+Inputfile: ../data/deezer_clean_data/HR_edges.csv
+Loading file <../data/deezer_clean_data/HR_edges.csv>
+NumNodes: 54573
+LayouterMode: Naive
+Iteration: 1
+Elapsed: 0.111781
+RepulsiveFore: 0.111781
+
+Iteration: 2
+Elapsed: 0.103521
+RepulsiveFore: 0.107651
+
+Iteration: 3
+Elapsed: 0.104708
+RepulsiveFore: 0.10667
+
+Iteration: 4
+Elapsed: 0.104504
+RepulsiveFore: 0.106129
+
+Iteration: 5
+Elapsed: 0.105332
+RepulsiveFore: 0.105969
+
+Iteration: 6
+Elapsed: 0.104226
+RepulsiveFore: 0.105679
+
+Iteration: 7
+Elapsed: 0.105106
+RepulsiveFore: 0.105597
+
+Iteration: 8
+Elapsed: 0.104925
+RepulsiveFore: 0.105513
+
+Iteration: 9
+Elapsed: 0.104242
+RepulsiveFore: 0.105372
+
+Iteration: 10
+Elapsed: 0.105892
+RepulsiveFore: 0.105424
+
+Iteration: 11
+Elapsed: 0.104004
+RepulsiveFore: 0.105295
+
+Iteration: 12
+Elapsed: 0.1047
+RepulsiveFore: 0.105245
+
+Iteration: 13
+Elapsed: 0.103582
+RepulsiveFore: 0.105117
+
+Iteration: 14
+Elapsed: 0.102329
+RepulsiveFore: 0.104918
+
+Iteration: 15
+Elapsed: 0.102774
+RepulsiveFore: 0.104775
+
+Iteration: 16
+Elapsed: 0.104334
+RepulsiveFore: 0.104748
+
+Iteration: 17
+Elapsed: 0.103979
+RepulsiveFore: 0.104702
+
+Iteration: 18
+Elapsed: 0.104373
+RepulsiveFore: 0.104684
+
+Iteration: 19
+Elapsed: 0.104373
+RepulsiveFore: 0.104668
+
+Iteration: 20
+Elapsed: 0.103595
+RepulsiveFore: 0.104614
+
+Iteration: 21
+Elapsed: 0.104017
+RepulsiveFore: 0.104586
+
